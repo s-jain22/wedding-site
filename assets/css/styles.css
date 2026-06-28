@@ -9,8 +9,8 @@
   --ink: #2c2420;
   --muted: #8a7d72;
   --max: 1080px;
-  --serif: "Cormorant Garamond", Georgia, serif;
-  --sans: "Jost", system-ui, sans-serif;
+  --serif: "Cormorant Garamond", "Noto Sans Devanagari", Georgia, serif;
+  --sans: "Jost", "Noto Sans Devanagari", system-ui, sans-serif;
 }
 
 * { box-sizing: border-box; }
@@ -56,6 +56,7 @@ a { color: var(--maroon); }
   color: var(--maroon);
   text-decoration: none;
 }
+.nav-right { display: flex; align-items: center; gap: 1.4rem; }
 .nav-links { display: flex; gap: 1.6rem; }
 .nav-links a {
   font-size: .82rem;
@@ -66,6 +67,26 @@ a { color: var(--maroon); }
   transition: color .2s;
 }
 .nav-links a:hover { color: var(--marigold); }
+
+.lang-switch { display: flex; gap: .25rem; }
+.lang-switch button {
+  border: 1px solid #e0d0bb;
+  background: transparent;
+  color: var(--muted);
+  font-family: var(--sans);
+  font-size: .72rem;
+  letter-spacing: .08em;
+  padding: .3rem .55rem;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all .2s;
+}
+.lang-switch button:hover { color: var(--maroon); border-color: var(--gold); }
+.lang-switch button.active {
+  background: var(--maroon);
+  color: var(--cream);
+  border-color: var(--maroon);
+}
 
 .nav-toggle {
   display: none;
@@ -93,6 +114,8 @@ a { color: var(--maroon); }
     linear-gradient(160deg, var(--cream) 0%, var(--cream-alt) 100%);
   position: relative;
 }
+.hero--sub { min-height: 48vh; }
+.hero--sub::after { display: none; }
 .hero::after {
   content: "";
   position: absolute;
@@ -166,32 +189,57 @@ a { color: var(--maroon); }
 .lead { font-size: 1.18rem; font-family: var(--serif); }
 .muted { color: var(--muted); font-size: .95rem; }
 
-/* ---------- Timeline / events ---------- */
-.timeline { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
-.event-card {
+/* ---------- Schedule ---------- */
+.schedule { display: flex; flex-direction: column; gap: 2.5rem; }
+.day-block {
   background: var(--cream);
   border: 1px solid #e6d8c4;
-  border-radius: 6px;
-  padding: 2rem;
+  border-radius: 8px;
+  overflow: hidden;
   box-shadow: 0 8px 24px rgba(107,31,42,.05);
 }
-.event-day {
-  display: inline-block;
+.day-head {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  padding: 1.4rem 1.8rem;
+  background: linear-gradient(90deg, rgba(232,163,61,.14), transparent);
+  border-bottom: 1px solid #e6d8c4;
+}
+.day-label {
   text-transform: uppercase;
   letter-spacing: .2em;
   font-size: .7rem;
   color: var(--marigold);
-  margin-bottom: .5rem;
+  white-space: nowrap;
 }
-.event-list { list-style: none; padding: 0; margin: 1rem 0 0; }
-.event-list li { padding: .6rem 0; border-top: 1px dashed #e0d0bb; }
-.event-time {
-  display: inline-block;
-  min-width: 64px;
+.day-date { margin: 0; color: var(--maroon); font-size: 1.6rem; }
+
+.schedule-table { width: 100%; border-collapse: collapse; }
+.schedule-table th {
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  font-size: .68rem;
+  font-weight: 500;
+  color: var(--muted);
+  padding: .9rem 1.8rem;
+  border-bottom: 1px solid #ece0cd;
+}
+.schedule-table td {
+  padding: 1rem 1.8rem;
+  border-bottom: 1px solid #f0e6d6;
+  vertical-align: top;
+}
+.schedule-table tr:last-child td { border-bottom: 0; }
+.schedule-table td:first-child {
   color: var(--maroon);
   font-weight: 500;
-  letter-spacing: .05em;
+  white-space: nowrap;
+  width: 1%;
 }
+.schedule-table td:nth-child(2) { font-family: var(--serif); font-size: 1.18rem; color: var(--ink); }
+.schedule-table td:last-child { color: #5d5249; }
 
 /* ---------- Layout helpers ---------- */
 .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem; align-items: start; }
@@ -255,5 +303,10 @@ a { color: var(--maroon); }
     display: none;
   }
   .nav-links.open { display: flex; }
-  .timeline, .two-col, .card-grid { grid-template-columns: 1fr; }
+  .two-col, .card-grid { grid-template-columns: 1fr; }
+
+  .day-head { flex-direction: column; gap: .3rem; padding: 1.1rem 1.2rem; }
+  .day-date { font-size: 1.35rem; }
+  .schedule-table th, .schedule-table td { padding: .8rem 1.2rem; }
+  .schedule-table td:nth-child(2) { font-size: 1.05rem; }
 }

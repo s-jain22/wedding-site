@@ -3,53 +3,61 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sonali &amp; Thomas — 22–23 February 2026, Jaipur</title>
-  <meta name="description" content="Wedding of Sonali &amp; Thomas — 22 to 23 February 2026 at Ridhi Resort, Jaipur. Venue, travel, schedule and guest information." />
+  <title>Sonali &amp; Thomas — 22–23 February 2027, Jaipur</title>
+  <meta name="description" content="Wedding of Sonali &amp; Thomas — 22 to 23 February 2027 at Ridhi Resort, Jaipur. Venue, travel, schedule and guest information." />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500&family=Noto+Sans+Devanagari:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 <body>
   <header class="site-nav" id="top">
     <div class="nav-inner">
       <a href="#top" class="brand">S &amp; T</a>
-      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-      <nav class="nav-links">
-        <a href="#events">Events</a>
-        <a href="#venue">Venue</a>
-        <a href="#travel">Getting There</a>
-        <a href="#stay">Stay</a>
-        <a href="#attire">Attire</a>
-        <a href="#faq">FAQ</a>
-      </nav>
+      <div class="nav-right">
+        <nav class="nav-links">
+          <a href="#events" data-i18n="nav_events">Events</a>
+          <a href="#venue" data-i18n="nav_venue">Venue</a>
+          <a href="#travel" data-i18n="nav_travel">Getting There</a>
+          <a href="#stay" data-i18n="nav_stay">Stay</a>
+          <a href="#attire" data-i18n="nav_attire">Attire</a>
+          <a href="#faq" data-i18n="nav_faq">FAQ</a>
+          <a href="international.html" data-i18n="nav_guide">Guest Guide</a>
+        </nav>
+        <div class="lang-switch" role="group" aria-label="Language">
+          <button type="button" data-lang="en">EN</button>
+          <button type="button" data-lang="hi" lang="hi">हिं</button>
+          <button type="button" data-lang="fr">FR</button>
+        </div>
+        <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
     </div>
   </header>
 
   <!-- HERO -->
   <section class="hero">
     <div class="hero-content">
-      <p class="hero-kicker">Together with their families</p>
+      <p class="hero-kicker" data-i18n="hero_kicker">Together with their families</p>
       <h1 class="hero-names">Sonali <span>&amp;</span> Thomas</h1>
-      <p class="hero-date">22 &ndash; 23 February 2026</p>
-      <p class="hero-place">Ridhi Resort &middot; Jaipur, India</p>
-      <a class="btn" href="#events">View the celebrations</a>
+      <p class="hero-date" data-i18n="hero_date">22 &ndash; 23 February 2027</p>
+      <p class="hero-place" data-i18n="hero_place">Ridhi Resort &middot; Jaipur, India</p>
+      <a class="btn" href="#events" data-i18n="hero_cta">View the celebrations</a>
     </div>
   </section>
 
   <!-- WELCOME -->
   <section class="section section--narrow" id="welcome">
-    <h2 class="section-title">Welcome</h2>
-    <p class="lead">
+    <h2 class="section-title" data-i18n="welcome_title">Welcome</h2>
+    <p class="lead" data-i18n="welcome_p1">
       We are so happy to have you with us as we celebrate our wedding in the
       beautiful pink city of Jaipur. Whether you are travelling from across
       India or across the world, this page has everything you need &mdash; where
       to be, when to be there, and how to get the most out of your trip.
     </p>
-    <p class="lead">
+    <p class="lead" data-i18n="welcome_p2">
       Take your time exploring. If anything is unclear, our contacts are at the
       bottom of the page.
     </p>
@@ -57,44 +65,150 @@
 
   <!-- EVENTS -->
   <section class="section section--alt" id="events">
-    <h2 class="section-title">The Celebrations</h2>
-    <p class="section-sub">Two days of festivities. Detailed timings will be confirmed closer to the date.</p>
+    <h2 class="section-title" data-i18n="cel_title">The Celebrations</h2>
+    <p class="section-sub" data-i18n="cel_sub">Three days of festivities. Many of the events are traditional Indian ceremonies &mdash; we&rsquo;ve added a short note on each so everyone can follow along. Timings are indicative and may shift slightly.</p>
 
-    <div class="timeline">
-      <article class="event-card">
-        <div class="event-day">Day 1</div>
-        <h3>Sunday, 22 February 2026</h3>
-        <ul class="event-list">
-          <li><span class="event-time">TBC</span> Mehendi &amp; Welcome Lunch</li>
-          <li><span class="event-time">TBC</span> Sangeet &amp; Dinner</li>
-        </ul>
+    <div class="schedule">
+      <article class="day-block">
+        <header class="day-head">
+          <span class="day-label" data-i18n="day1_label">Day 1</span>
+          <h3 class="day-date" data-i18n="day1_date">22 February 2027</h3>
+        </header>
+        <table class="schedule-table">
+          <thead>
+            <tr>
+              <th data-i18n="th_time">Time</th>
+              <th data-i18n="th_event">Event</th>
+              <th data-i18n="th_details">Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-i18n="d1r1_t">Morning</td>
+              <td data-i18n="d1r1_e">Arrivals</td>
+              <td data-i18n="d1r1_d">Transfers to Ridhi Resort.</td>
+            </tr>
+            <tr>
+              <td data-i18n="d1r2_t">Noon</td>
+              <td data-i18n="d1r2_e">Welcome Lunch</td>
+              <td data-i18n="d1r2_d">A relaxed lunch to welcome everyone, hosted by Sonali&rsquo;s family, who are from Jaipur.</td>
+            </tr>
+            <tr>
+              <td data-i18n="d1r3_t">Afternoon onwards</td>
+              <td data-i18n="d1r3_e">Check-in</td>
+              <td data-i18n="d1r3_d">Ridhi Resort, Jaipur</td>
+            </tr>
+            <tr>
+              <td data-i18n="d1r4_t">3:00 PM</td>
+              <td data-i18n="d1r4_e">Mehendi</td>
+              <td data-i18n="d1r4_d">Intricate henna designs are applied to the hands of the bride and the women guests &mdash; a colourful, social afternoon. Everyone is welcome to get henna too.</td>
+            </tr>
+            <tr>
+              <td data-i18n="d1r5_t">6:00 &ndash; 7:00 PM</td>
+              <td data-i18n="d1r5_e">Mayra</td>
+              <td data-i18n="d1r5_d">A traditional family ceremony in which the bride&rsquo;s maternal uncle and his family arrive with gifts and blessings.</td>
+            </tr>
+          </tbody>
+        </table>
       </article>
 
-      <article class="event-card">
-        <div class="event-day">Day 2</div>
-        <h3>Monday, 23 February 2026</h3>
-        <ul class="event-list">
-          <li><span class="event-time">TBC</span> Wedding Ceremony</li>
-          <li><span class="event-time">TBC</span> Reception &amp; Dinner</li>
-        </ul>
+      <article class="day-block">
+        <header class="day-head">
+          <span class="day-label" data-i18n="day2_label">Day 2</span>
+          <h3 class="day-date" data-i18n="day2_date">23 February 2027</h3>
+        </header>
+        <table class="schedule-table">
+          <thead>
+            <tr>
+              <th data-i18n="th_time">Time</th>
+              <th data-i18n="th_event">Event</th>
+              <th data-i18n="th_details">Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-i18n="d2r1_t">6:00 &ndash; 7:00 AM</td>
+              <td data-i18n="d2r1_e">Bindayak</td>
+              <td data-i18n="d2r1_d">An auspicious opening ceremony that marks the formal start of the wedding rituals.</td>
+            </tr>
+            <tr>
+              <td data-i18n="d2r2_t">10:00 AM</td>
+              <td data-i18n="d2r2_e">Haldi</td>
+              <td data-i18n="d2r2_d">A turmeric paste is applied to the bride and groom for blessings and a natural glow before the wedding &mdash; expect bright yellow and plenty of laughter.</td>
+            </tr>
+            <tr>
+              <td data-i18n="d2r3_t">4:30 PM</td>
+              <td data-i18n="d2r3_e">Baraat</td>
+              <td data-i18n="d2r3_d">The groom&rsquo;s festive arrival procession, with music and dancing on the way to the venue &mdash; guests are warmly invited to join in.</td>
+            </tr>
+            <tr>
+              <td data-i18n="d2r4_t">5:00 PM</td>
+              <td data-i18n="d2r4_e">Phera</td>
+              <td data-i18n="d2r4_d">The heart of the wedding: the couple take their vows while circling a sacred fire together, accompanied by live music.</td>
+            </tr>
+            <tr>
+              <td data-i18n="d2r5_t">7:30 PM</td>
+              <td data-i18n="d2r5_e">Varmala</td>
+              <td data-i18n="d2r5_d">The bride and groom exchange flower garlands to mark their union, as the groom makes his grand entry.</td>
+            </tr>
+            <tr>
+              <td data-i18n="d2r5b_t">~8:00 PM</td>
+              <td data-i18n="d2r5b_e">Ring Exchange</td>
+              <td data-i18n="d2r5b_d">A separate, intimate moment bridging the Hindu ceremony and the Western tradition &mdash; Sonali and Thomas exchange rings and vows in a quieter setting, just before the reception.</td>
+            </tr>
+            <tr>
+              <td data-i18n="d2r6_t">8:30 PM</td>
+              <td data-i18n="d2r6_e">Live Band Reception</td>
+              <td data-i18n="d2r6_d">Dinner, drinks and dancing with a live band to close the celebrations.</td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+
+      <article class="day-block">
+        <header class="day-head">
+          <span class="day-label" data-i18n="day3_label">Day 3</span>
+          <h3 class="day-date" data-i18n="day3_date">24 February 2027</h3>
+        </header>
+        <table class="schedule-table">
+          <thead>
+            <tr>
+              <th data-i18n="th_time">Time</th>
+              <th data-i18n="th_event">Event</th>
+              <th data-i18n="th_details">Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-i18n="d3r1_t">Morning</td>
+              <td data-i18n="d3r1_e">Breakfast + Brunch</td>
+              <td data-i18n="d3r1_d">A relaxed breakfast and brunch for guests staying at the resort.</td>
+            </tr>
+            <tr>
+              <td data-i18n="d3r2_t">Morning</td>
+              <td data-i18n="d3r2_e">Checkout</td>
+              <td data-i18n="d3r2_d">Check-out from Ridhi Resort.</td>
+            </tr>
+          </tbody>
+        </table>
       </article>
     </div>
   </section>
 
   <!-- VENUE -->
   <section class="section" id="venue">
-    <h2 class="section-title">The Venue</h2>
+    <h2 class="section-title" data-i18n="venue_title">The Venue</h2>
     <div class="two-col">
       <div>
-        <h3>Ridhi Resort, Jaipur</h3>
-        <p>
+        <h3 data-i18n="venue_h">Ridhi Resort, Jaipur</h3>
+        <p data-i18n="venue_p">
           All events take place at Ridhi Resort, set against the backdrop of
           Jaipur&rsquo;s Aravalli hills. The resort offers a relaxed setting for
           the celebrations, with space for both ceremonies and quieter moments
           between events.
         </p>
-        <p class="muted">Full address and a map link will be added here.</p>
-        <a class="btn btn--ghost" href="https://maps.google.com/?q=Ridhi+Resort+Jaipur" target="_blank" rel="noopener">Open in Google Maps</a>
+        <p class="muted" data-i18n="venue_note">Full address and a map link will be added here.</p>
+        <a class="btn btn--ghost" href="https://maps.google.com/?q=Ridhi+Resort+Jaipur" target="_blank" rel="noopener" data-i18n="venue_cta">Open in Google Maps</a>
       </div>
       <div class="map-frame">
         <iframe
@@ -108,27 +222,26 @@
 
   <!-- TRAVEL -->
   <section class="section section--alt" id="travel">
-    <h2 class="section-title">Getting There</h2>
+    <h2 class="section-title" data-i18n="travel_title">Getting There</h2>
     <div class="card-grid">
       <article class="info-card">
-        <h3>By Air</h3>
-        <p>
-          Fly into <strong>Jaipur International Airport (JAI)</strong>, roughly
-          a 30&ndash;45 minute drive from the venue. International guests can
-          connect via Delhi (DEL) or Mumbai (BOM).
+        <h3 data-i18n="air_h">By Air</h3>
+        <p data-i18n="air_p">
+          Fly into Jaipur International Airport (JAI), roughly a 30&ndash;45
+          minute drive from the venue. International guests can connect via
+          Delhi (DEL) or Mumbai (BOM).
         </p>
       </article>
       <article class="info-card">
-        <h3>By Train</h3>
-        <p>
-          <strong>Jaipur Junction</strong> is well connected to Delhi and other
-          major cities. Pre-booked taxis and ride apps are available at the
-          station.
+        <h3 data-i18n="train_h">By Train</h3>
+        <p data-i18n="train_p">
+          Jaipur Junction is well connected to Delhi and other major cities.
+          Pre-booked taxis and ride apps are available at the station.
         </p>
       </article>
       <article class="info-card">
-        <h3>Local Transport</h3>
-        <p>
+        <h3 data-i18n="local_h">Local Transport</h3>
+        <p data-i18n="local_p">
           We will arrange transfers between recommended hotels and the venue for
           the main events. Details to follow. Uber and Ola also operate in
           Jaipur.
@@ -139,79 +252,80 @@
 
   <!-- STAY -->
   <section class="section" id="stay">
-    <h2 class="section-title">Where to Stay</h2>
-    <p class="section-sub">We&rsquo;ll list a few recommended hotels at a range of budgets here, with booking details.</p>
+    <h2 class="section-title" data-i18n="stay_title">Where to Stay</h2>
+    <p class="section-sub" data-i18n="stay_sub">We&rsquo;ll list a few recommended hotels at a range of budgets here, with booking details.</p>
     <div class="card-grid">
       <article class="info-card">
-        <h3>At the Venue</h3>
-        <p>Limited rooms may be available at Ridhi Resort. Details to be confirmed.</p>
+        <h3 data-i18n="stay_h1">At the Venue</h3>
+        <p data-i18n="stay_p1">Limited rooms may be available at Ridhi Resort. Details to be confirmed.</p>
       </article>
       <article class="info-card">
-        <h3>Recommended Hotels</h3>
-        <p>A shortlist of nearby hotels with our group rates will be added soon.</p>
+        <h3 data-i18n="stay_h2">Recommended Hotels</h3>
+        <p data-i18n="stay_p2">A shortlist of nearby hotels with our group rates will be added soon.</p>
       </article>
       <article class="info-card">
-        <h3>Booking Help</h3>
-        <p>Need a hand booking? Reach out to our contacts below and we&rsquo;ll help.</p>
+        <h3 data-i18n="stay_h3">Booking Help</h3>
+        <p data-i18n="stay_p3">Need a hand booking? Reach out to our contacts below and we&rsquo;ll help.</p>
       </article>
     </div>
   </section>
 
   <!-- ATTIRE -->
   <section class="section section--alt" id="attire">
-    <h2 class="section-title">Attire &amp; Dressing Up</h2>
+    <h2 class="section-title" data-i18n="attire_title">Attire &amp; Dressing Up</h2>
     <div class="two-col">
       <div>
-        <h3>Dress Code</h3>
-        <p>
+        <h3 data-i18n="dress_h">Dress Code</h3>
+        <p data-i18n="dress_p">
           Indian festive wear is encouraged for all events &mdash; and very much
           welcomed from our international guests! Think colour, comfort, and
           shoes you can dance in. A detailed dress code per event will be added.
         </p>
       </div>
       <div>
-        <h3>Renting &amp; Buying Outfits</h3>
-        <p>
+        <h3 data-i18n="rent_h">Renting &amp; Buying Outfits</h3>
+        <p data-i18n="rent_p">
           New to Indian outfits? You don&rsquo;t need to buy anything. We&rsquo;ll
           recommend rental services and shops in Jaipur and Delhi for sarees,
           lehengas, sherwanis and kurtas &mdash; including options that deliver to
           your hotel.
         </p>
-        <p class="muted">Rental partners and links coming soon.</p>
+        <p class="muted" data-i18n="rent_note">Rental partners and links coming soon.</p>
       </div>
     </div>
   </section>
 
   <!-- FAQ -->
   <section class="section" id="faq">
-    <h2 class="section-title">Good to Know</h2>
+    <h2 class="section-title" data-i18n="faq_title">Good to Know</h2>
     <div class="faq">
       <details>
-        <summary>Do I need a visa for India?</summary>
-        <p>Most international guests can apply for an e-Visa online. Check requirements for your nationality well in advance.</p>
+        <summary data-i18n="faq_q1">Do I need a visa for India?</summary>
+        <p data-i18n="faq_a1">Most international guests can apply for an e-Visa online. Check requirements for your nationality well in advance.</p>
       </details>
       <details>
-        <summary>What will the weather be like?</summary>
-        <p>February in Jaipur is pleasant &mdash; warm, sunny days (around 25&deg;C) and cooler evenings. Bring a light layer for the night events.</p>
+        <summary data-i18n="faq_q2">What will the weather be like?</summary>
+        <p data-i18n="faq_a2">February in Jaipur is pleasant &mdash; warm, sunny days (around 25&deg;C) and cooler evenings. Bring a light layer for the night events.</p>
       </details>
       <details>
-        <summary>What currency should I bring?</summary>
-        <p>The Indian Rupee (INR). Cards are widely accepted in hotels; carry some cash for smaller purchases and tips.</p>
+        <summary data-i18n="faq_q3">What currency should I bring?</summary>
+        <p data-i18n="faq_a3">The Indian Rupee (INR). Cards are widely accepted in hotels; carry some cash for smaller purchases and tips.</p>
       </details>
       <details>
-        <summary>Will there be vegetarian food?</summary>
-        <p>Yes &mdash; plenty of vegetarian and other options will be available throughout.</p>
+        <summary data-i18n="faq_q4">Will there be vegetarian food?</summary>
+        <p data-i18n="faq_a4">Yes &mdash; the food is fully vegetarian, with plenty of options throughout.</p>
       </details>
     </div>
   </section>
 
   <!-- CONTACT / FOOTER -->
   <footer class="site-footer" id="contact">
-    <h2 class="footer-title">With love, Sonali &amp; Thomas</h2>
-    <p class="footer-date">22 &ndash; 23 February 2026 &middot; Ridhi Resort, Jaipur</p>
-    <p class="footer-contact">Questions? Contact us at <a href="mailto:hello@example.com">hello@example.com</a></p>
+    <h2 class="footer-title" data-i18n="footer_title">With love, Sonali &amp; Thomas</h2>
+    <p class="footer-date" data-i18n="footer_date">22 &ndash; 23 February 2027 &middot; Ridhi Resort, Jaipur</p>
+    <p class="footer-contact" data-i18n="footer_contact">Questions? Contact us at <a href="mailto:hello@example.com">hello@example.com</a></p>
   </footer>
 
+  <script src="assets/js/i18n.js"></script>
   <script src="assets/js/main.js"></script>
 </body>
 </html>

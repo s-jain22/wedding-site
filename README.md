@@ -1,6 +1,6 @@
 # Sonali & Thomas — Wedding Site
 
-Static information site for our guests. Wedding: **22–23 February 2026, Ridhi Resort, Jaipur**.
+Static information site for our guests. Wedding: **22–23 February 2027, Ridhi Resort, Jaipur**.
 
 ## Structure
 
