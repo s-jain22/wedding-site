@@ -25,10 +25,15 @@
           <a href="#faq" data-i18n="nav_faq">FAQ</a>
           <a href="international.html" data-i18n="nav_guide">Guest Guide</a>
         </nav>
-        <div class="lang-switch" role="group" aria-label="Language">
-          <button type="button" data-lang="en">EN</button>
-          <button type="button" data-lang="hi" lang="hi">हिं</button>
-          <button type="button" data-lang="fr">FR</button>
+        <div class="lang-switch" aria-label="Language">
+          <button type="button" class="lang-current" aria-haspopup="listbox" aria-expanded="false">
+            <span class="lang-flag">🇬🇧</span><span class="lang-name">English</span><span class="lang-caret">▾</span>
+          </button>
+          <ul class="lang-menu" role="listbox">
+            <li><button type="button" data-lang="en"><span class="lang-flag">🇬🇧</span><span>English</span></button></li>
+            <li><button type="button" data-lang="hi" lang="hi"><span class="lang-flag">🇮🇳</span><span>हिंदी</span></button></li>
+            <li><button type="button" data-lang="fr"><span class="lang-flag">🇫🇷</span><span>Français</span></button></li>
+          </ul>
         </div>
         <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
           <span></span><span></span><span></span>
@@ -143,18 +148,13 @@
             </tr>
             <tr>
               <td data-i18n="d2r4_t">5:00 PM</td>
-              <td data-i18n="d2r4_e">Phera</td>
-              <td data-i18n="d2r4_d">The heart of the wedding: the couple take their vows while circling a sacred fire together, accompanied by live music.</td>
+              <td data-i18n="d2r4_e">Phera &amp; Varmala</td>
+              <td data-i18n="d2r4_d">The heart of the wedding, held together: the couple exchange flower garlands (Varmala) to mark their union, then take their vows while circling a sacred fire (Phera), accompanied by live music.</td>
             </tr>
             <tr>
-              <td data-i18n="d2r5_t">7:30 PM</td>
-              <td data-i18n="d2r5_e">Varmala</td>
-              <td data-i18n="d2r5_d">The bride and groom exchange flower garlands to mark their union, as the groom makes his grand entry.</td>
-            </tr>
-            <tr>
-              <td data-i18n="d2r5b_t">~8:00 PM</td>
-              <td data-i18n="d2r5b_e">Ring Exchange</td>
-              <td data-i18n="d2r5b_d">A separate, intimate moment bridging the Hindu ceremony and the Western tradition &mdash; Sonali and Thomas exchange rings and vows in a quieter setting, just before the reception.</td>
+              <td data-i18n="d2r5b_t">7:30 PM</td>
+              <td data-i18n="d2r5b_e">Ring &amp; Vows Exchange</td>
+              <td data-i18n="d2r5b_d">An intimate moment bridging the Hindu ceremony and the Western tradition &mdash; Sonali and Thomas exchange rings and personal vows, just before the reception.</td>
             </tr>
             <tr>
               <td data-i18n="d2r6_t">8:30 PM</td>
@@ -312,8 +312,8 @@
         <p data-i18n="faq_a3">The Indian Rupee (INR). Cards are widely accepted in hotels; carry some cash for smaller purchases and tips.</p>
       </details>
       <details>
-        <summary data-i18n="faq_q4">Will there be vegetarian food?</summary>
-        <p data-i18n="faq_a4">Yes &mdash; the food is fully vegetarian, with plenty of options throughout.</p>
+        <summary data-i18n="faq_q4">What food will be served?</summary>
+        <p data-i18n="faq_a4">It&rsquo;s a fully vegan wedding &mdash; all food and drink is plant-based, with plenty of options throughout.</p>
       </details>
     </div>
   </section>

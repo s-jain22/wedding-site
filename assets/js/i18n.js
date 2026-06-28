@@ -60,9 +60,8 @@ const I18N = {
     d2r1_t: "6:00 &ndash; 7:00 AM", d2r1_e: "Bindayak", d2r1_d: "An auspicious opening ceremony that marks the formal start of the wedding rituals.",
     d2r2_t: "10:00 AM", d2r2_e: "Haldi", d2r2_d: "A turmeric paste is applied to the bride and groom for blessings and a natural glow before the wedding &mdash; expect bright yellow and plenty of laughter.",
     d2r3_t: "4:30 PM", d2r3_e: "Baraat", d2r3_d: "The groom&rsquo;s festive arrival procession, with music and dancing on the way to the venue &mdash; guests are warmly invited to join in.",
-    d2r4_t: "5:00 PM", d2r4_e: "Phera", d2r4_d: "The heart of the wedding: the couple take their vows while circling a sacred fire together, accompanied by live music.",
-    d2r5_t: "7:30 PM", d2r5_e: "Varmala", d2r5_d: "The bride and groom exchange flower garlands to mark their union, as the groom makes his grand entry.",
-    d2r5b_t: "~8:00 PM", d2r5b_e: "Ring Exchange", d2r5b_d: "A separate, intimate moment bridging the Hindu ceremony and the Western tradition &mdash; Sonali and Thomas exchange rings and vows in a quieter setting, just before the reception.",
+    d2r4_t: "5:00 PM", d2r4_e: "Phera &amp; Varmala", d2r4_d: "The heart of the wedding, held together: the couple exchange flower garlands (Varmala) to mark their union, then take their vows while circling a sacred fire (Phera), accompanied by live music.",
+    d2r5b_t: "7:30 PM", d2r5b_e: "Ring &amp; Vows Exchange", d2r5b_d: "An intimate moment bridging the Hindu ceremony and the Western tradition &mdash; Sonali and Thomas exchange rings and personal vows, just before the reception.",
     d2r6_t: "8:30 PM", d2r6_e: "Live Band Reception", d2r6_d: "Dinner, drinks and dancing with a live band to close the celebrations.",
 
     d3r1_t: "Morning", d3r1_e: "Breakfast + Brunch", d3r1_d: "A relaxed breakfast and brunch for guests staying at the resort.",
@@ -99,7 +98,7 @@ const I18N = {
     faq_q1: "Do I need a visa for India?", faq_a1: "Most international guests can apply for an e-Visa online. Check requirements for your nationality well in advance.",
     faq_q2: "What will the weather be like?", faq_a2: "February in Jaipur is pleasant &mdash; warm, sunny days (around 25&deg;C) and cooler evenings. Bring a light layer for the night events.",
     faq_q3: "What currency should I bring?", faq_a3: "The Indian Rupee (INR). Cards are widely accepted in hotels; carry some cash for smaller purchases and tips.",
-    faq_q4: "Will there be vegetarian food?", faq_a4: "Yes &mdash; the food is fully vegetarian, with plenty of options throughout.",
+    faq_q4: "What food will be served?", faq_a4: "It&rsquo;s a fully vegan wedding &mdash; all food and drink is plant-based, with plenty of options throughout.",
 
     footer_title: "With love, Sonali &amp; Thomas",
     footer_date: "22 &ndash; 23 February 2027 &middot; Ridhi Resort, Jaipur",
@@ -136,9 +135,8 @@ const I18N = {
     d2r1_t: "6:00 &ndash; 7:00 पूर्वाह्न", d2r1_e: "बिंदायक", d2r1_d: "एक शुभ रस्म, जो विवाह की रस्मों का औपचारिक आरंभ है।",
     d2r2_t: "10:00 पूर्वाह्न", d2r2_e: "हल्दी", d2r2_d: "विवाह से पहले दूल्हा-दुल्हन पर आशीर्वाद और प्राकृतिक निखार के लिए हल्दी का लेप लगाया जाता है &mdash; खूब पीलापन और हँसी-मज़ाक।",
     d2r3_t: "4:30 अपराह्न", d2r3_e: "बारात", d2r3_d: "दूल्हे की उत्सवपूर्ण बारात, स्थल तक संगीत और नृत्य के साथ &mdash; अतिथि भी सहर्ष शामिल हो सकते हैं।",
-    d2r4_t: "5:00 अपराह्न", d2r4_e: "फेरा", d2r4_d: "विवाह का मुख्य भाग: दूल्हा-दुल्हन पवित्र अग्नि के फेरे लेकर विवाह के वचन लेते हैं, लाइव संगीत के साथ।",
-    d2r5_t: "7:30 अपराह्न", d2r5_e: "वरमाला", d2r5_d: "दूल्हे के भव्य आगमन पर दूल्हा-दुल्हन एक-दूसरे को वरमाला पहनाते हैं।",
-    d2r5b_t: "~8:00 अपराह्न", d2r5b_e: "रिंग एक्सचेंज", d2r5b_d: "हिंदू रस्मों और पश्चिमी परंपरा को जोड़ता एक अलग, आत्मीय पल &mdash; सोनाली और थॉमस एक शांत माहौल में अंगूठियाँ और वचन साझा करते हैं, रिसेप्शन से ठीक पहले।",
+    d2r4_t: "5:00 अपराह्न", d2r4_e: "फेरा और वरमाला", d2r4_d: "विवाह का मुख्य भाग, एक साथ: दूल्हा-दुल्हन एक-दूसरे को वरमाला पहनाकर अपने मिलन का प्रतीक रचते हैं, फिर पवित्र अग्नि के फेरे लेकर विवाह के वचन लेते हैं, लाइव संगीत के साथ।",
+    d2r5b_t: "7:30 अपराह्न", d2r5b_e: "रिंग और वचन समारोह", d2r5b_d: "हिंदू रस्मों और पश्चिमी परंपरा को जोड़ता एक आत्मीय पल &mdash; सोनाली और थॉमस अंगूठियाँ और निजी वचन साझा करते हैं, रिसेप्शन से ठीक पहले।",
     d2r6_t: "8:30 अपराह्न", d2r6_e: "लाइव बैंड स्वागत समारोह", d2r6_d: "लाइव बैंड के साथ रात्रिभोज, पेय और नृत्य &mdash; समारोह का समापन।",
 
     d3r1_t: "सुबह", d3r1_e: "नाश्ता + ब्रंच", d3r1_d: "रिज़ॉर्ट में ठहरे अतिथियों के लिए आरामदेह नाश्ता और ब्रंच।",
@@ -175,7 +173,7 @@ const I18N = {
     faq_q1: "क्या मुझे भारत के लिए वीज़ा चाहिए?", faq_a1: "अधिकांश विदेशी अतिथि ऑनलाइन ई-वीज़ा के लिए आवेदन कर सकते हैं। अपनी राष्ट्रीयता की शर्तें पहले से जाँच लें।",
     faq_q2: "मौसम कैसा रहेगा?", faq_a2: "फ़रवरी में जयपुर का मौसम सुहावना रहता है &mdash; गरम, धूप वाले दिन (लगभग 25&deg;C) और ठंडी शामें। रात के कार्यक्रमों के लिए हल्के गरम कपड़े साथ लाएँ।",
     faq_q3: "मुझे कौन-सी मुद्रा लानी चाहिए?", faq_a3: "भारतीय रुपया (INR)। होटलों में कार्ड व्यापक रूप से स्वीकार्य हैं; छोटी खरीदारी और टिप के लिए कुछ नकद रखें।",
-    faq_q4: "क्या शाकाहारी भोजन होगा?", faq_a4: "हाँ &mdash; पूरा भोजन शाकाहारी रहेगा, और पूरे आयोजन में भरपूर विकल्प उपलब्ध रहेंगे।",
+    faq_q4: "कैसा भोजन परोसा जाएगा?", faq_a4: "यह पूरी तरह वीगन विवाह है &mdash; सारा भोजन और पेय पूर्णतः पादप-आधारित है, और पूरे आयोजन में भरपूर विकल्प उपलब्ध रहेंगे।",
 
     footer_title: "सस्नेह, सोनाली और थॉमस",
     footer_date: "22 &ndash; 23 फ़रवरी 2027 &middot; रिधि रिज़ॉर्ट, जयपुर",
@@ -241,9 +239,8 @@ const I18N = {
     d2r1_t: "6h00 &ndash; 7h00", d2r1_e: "Bindayak", d2r1_d: "Une cérémonie d&rsquo;ouverture de bon augure qui marque le début officiel des rituels du mariage.",
     d2r2_t: "10h00", d2r2_e: "Haldi", d2r2_d: "Une pâte de curcuma est appliquée sur les mariés pour les bénir et leur donner un éclat naturel avant le mariage &mdash; beaucoup de jaune et de rires.",
     d2r3_t: "16h30", d2r3_e: "Baraat", d2r3_d: "La procession festive d&rsquo;arrivée du marié, avec musique et danse jusqu&rsquo;au lieu &mdash; les invités sont chaleureusement conviés à se joindre.",
-    d2r4_t: "17h00", d2r4_e: "Phera", d2r4_d: "Le cœur du mariage : les mariés échangent leurs vœux en tournant ensemble autour d&rsquo;un feu sacré, accompagnés de musique live.",
-    d2r5_t: "19h30", d2r5_e: "Varmala", d2r5_d: "Les mariés échangent des guirlandes de fleurs pour célébrer leur union, lors de l&rsquo;entrée solennelle du marié.",
-    d2r5b_t: "~20h00", d2r5b_e: "Échange des alliances", d2r5b_d: "Un moment à part, intime, qui relie la cérémonie hindoue à la tradition occidentale &mdash; Sonali et Thomas échangent alliances et vœux dans un cadre plus calme, juste avant la réception.",
+    d2r4_t: "17h00", d2r4_e: "Phera &amp; Varmala", d2r4_d: "Le cœur du mariage, réuni : les mariés échangent des guirlandes de fleurs (Varmala) pour célébrer leur union, puis prononcent leurs vœux en tournant autour d&rsquo;un feu sacré (Phera), accompagnés de musique live.",
+    d2r5b_t: "19h30", d2r5b_e: "Échange des alliances et des vœux", d2r5b_d: "Un moment intime qui relie la cérémonie hindoue à la tradition occidentale &mdash; Sonali et Thomas échangent alliances et vœux personnels, juste avant la réception.",
     d2r6_t: "20h30", d2r6_e: "Réception avec groupe live", d2r6_d: "Dîner, boissons et danse avec un groupe live pour clôturer les célébrations.",
 
     d3r1_t: "Matin", d3r1_e: "Petit-déjeuner + brunch", d3r1_d: "Un petit-déjeuner et un brunch détendus pour les invités séjournant au resort.",
@@ -280,7 +277,7 @@ const I18N = {
     faq_q1: "Ai-je besoin d&rsquo;un visa pour l&rsquo;Inde ?", faq_a1: "La plupart des invités internationaux peuvent demander un e-Visa en ligne. Vérifiez les conditions pour votre nationalité bien à l&rsquo;avance.",
     faq_q2: "Quel temps fera-t-il ?", faq_a2: "Février à Jaipur est agréable &mdash; journées chaudes et ensoleillées (environ 25&deg;C) et soirées plus fraîches. Prévoyez une couche légère pour les événements du soir.",
     faq_q3: "Quelle monnaie dois-je apporter ?", faq_a3: "La roupie indienne (INR). Les cartes sont largement acceptées dans les hôtels ; gardez un peu d&rsquo;espèces pour les petits achats et les pourboires.",
-    faq_q4: "Y aura-t-il de la nourriture végétarienne ?", faq_a4: "Oui &mdash; la cuisine est entièrement végétarienne, avec de nombreuses options tout au long.",
+    faq_q4: "Quelle nourriture sera servie ?", faq_a4: "C&rsquo;est un mariage entièrement vegan &mdash; toute la nourriture et les boissons sont d&rsquo;origine végétale, avec de nombreuses options tout au long.",
 
     footer_title: "Avec amour, Sonali &amp; Thomas",
     footer_date: "22 &ndash; 23 février 2027 &middot; Ridhi Resort, Jaipur",
@@ -288,7 +285,23 @@ const I18N = {
   },
 };
 
-function applyLang(lang) {
+// Display metadata for each language (flag + native name).
+const LANGS = {
+  en: { flag: "🇬🇧", name: "English" },
+  hi: { flag: "🇮🇳", name: "हिंदी" },
+  fr: { flag: "🇫🇷", name: "Français" },
+};
+
+// Languages actually offered on this page (the guide page omits Hindi).
+const switchEl = document.querySelector(".lang-switch");
+const availableLangs = switchEl
+  ? Array.from(switchEl.querySelectorAll("[data-lang]"), (b) => b.getAttribute("data-lang"))
+  : [];
+
+// persist=false renders a language without overwriting the saved global
+// preference — used when a page can't offer the user's chosen language
+// (e.g. the EN/FR-only guide page when the visitor picked Hindi).
+function applyLang(lang, persist = true) {
   if (!I18N[lang]) lang = "en";
   const dict = I18N[lang];
   document.documentElement.lang = lang;
@@ -298,19 +311,60 @@ function applyLang(lang) {
     if (value !== undefined) el.innerHTML = value;
   });
 
-  document.querySelectorAll(".lang-switch [data-lang]").forEach((btn) => {
-    const active = btn.getAttribute("data-lang") === lang;
-    btn.classList.toggle("active", active);
-    btn.setAttribute("aria-pressed", String(active));
-  });
+  if (switchEl) {
+    const meta = LANGS[lang] || LANGS.en;
+    const flagEl = switchEl.querySelector(".lang-current .lang-flag");
+    const nameEl = switchEl.querySelector(".lang-current .lang-name");
+    if (flagEl) flagEl.textContent = meta.flag;
+    if (nameEl) nameEl.textContent = meta.name;
 
-  try { localStorage.setItem("lang", lang); } catch (e) {}
+    switchEl.querySelectorAll(".lang-menu [data-lang]").forEach((btn) => {
+      const active = btn.getAttribute("data-lang") === lang;
+      btn.classList.toggle("active", active);
+      btn.setAttribute("aria-pressed", String(active));
+    });
+  }
+
+  if (persist) {
+    try { localStorage.setItem("lang", lang); } catch (e) {}
+  }
 }
 
-document.querySelectorAll(".lang-switch [data-lang]").forEach((btn) =>
-  btn.addEventListener("click", () => applyLang(btn.getAttribute("data-lang")))
-);
+if (switchEl) {
+  const currentBtn = switchEl.querySelector(".lang-current");
+  const menu = switchEl.querySelector(".lang-menu");
+
+  function closeMenu() {
+    switchEl.classList.remove("open");
+    if (currentBtn) currentBtn.setAttribute("aria-expanded", "false");
+  }
+
+  if (currentBtn && menu) {
+    currentBtn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const open = switchEl.classList.toggle("open");
+      currentBtn.setAttribute("aria-expanded", String(open));
+    });
+
+    menu.querySelectorAll("[data-lang]").forEach((btn) =>
+      btn.addEventListener("click", () => {
+        applyLang(btn.getAttribute("data-lang"));
+        closeMenu();
+      })
+    );
+
+    document.addEventListener("click", (e) => {
+      if (!switchEl.contains(e.target)) closeMenu();
+    });
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") closeMenu();
+    });
+  }
+}
 
 let saved = "en";
 try { saved = localStorage.getItem("lang") || "en"; } catch (e) {}
-applyLang(saved);
+// If the saved language isn't available on this page, show English but keep
+// the saved preference intact for pages that do offer it.
+const canPersist = availableLangs.length === 0 || availableLangs.includes(saved);
+applyLang(canPersist ? saved : "en", canPersist);
