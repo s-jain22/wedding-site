@@ -304,6 +304,81 @@ a { color: var(--maroon); }
 }
 .info-card h3 { color: var(--maroon); }
 
+/* ---------- Attire / dress code ---------- */
+.attire-cards { align-items: stretch; }
+.attire-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--cream);
+  border: 1px solid #e6d8c4;
+  border-radius: 12px;
+  padding: 1.8rem;
+  box-shadow: 0 10px 28px rgba(107,31,42,.06);
+}
+.attire-name { color: var(--maroon); margin-bottom: .9rem; }
+.attire-name [lang="hi"] { display: block; font-size: 1.7rem; line-height: 1.1; }
+.attire-en {
+  display: block;
+  font-family: var(--sans);
+  font-weight: 400;
+  font-size: .72rem;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-top: .3rem;
+}
+.palette {
+  display: flex;
+  gap: .55rem;
+  list-style: none;
+  margin: 0 0 1.1rem;
+  padding: 0;
+}
+.palette li {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: var(--sw);
+  box-shadow: inset 0 0 0 1px rgba(0,0,0,.06), 0 2px 5px rgba(0,0,0,.08);
+}
+.palette li.sw-light { box-shadow: inset 0 0 0 1px #d8c7ad, 0 2px 5px rgba(0,0,0,.06); }
+.attire-pal { font-family: var(--serif); font-size: 1.12rem; color: var(--ink); margin: 0 0 .5rem; }
+.attire-vibe { color: #5d5249; margin: 0 0 .8rem; font-size: .96rem; }
+.attire-note {
+  margin: auto 0 0;
+  font-size: .9rem;
+  color: var(--maroon);
+  border-top: 1px solid #efe2cf;
+  padding-top: .8rem;
+}
+.attire-note--warn { color: #8a3b1e; }
+.attire-rent { text-align: center; margin: 2.5rem auto 0; max-width: 620px; }
+
+/* ---------- Shop / rental list (guide page) ---------- */
+.shop-h {
+  color: var(--maroon);
+  font-size: 1.5rem;
+  margin: 2.2rem 0 1rem;
+}
+.shop-list { list-style: none; margin: 0; padding: 0; display: grid; gap: .9rem; }
+.shop-item {
+  background: var(--cream);
+  border: 1px solid #e6d8c4;
+  border-left: 3px solid var(--marigold);
+  border-radius: 6px;
+  padding: 1rem 1.3rem;
+}
+.shop-item a {
+  font-family: var(--serif);
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--maroon);
+}
+.shop-item a:hover { color: var(--marigold); }
+.shop-desc { display: block; margin-top: .25rem; color: #5d5249; font-size: .98rem; }
+.shop-note { margin-top: 1.4rem; }
+
 /* ---------- Map ---------- */
 .map-frame { aspect-ratio: 4 / 3; border-radius: 6px; overflow: hidden; border: 1px solid #e6d8c4; }
 .map-frame iframe { width: 100%; height: 100%; border: 0; }
