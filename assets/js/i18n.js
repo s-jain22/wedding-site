@@ -113,7 +113,7 @@ const I18N = {
     dc3_event: "Garlands, Rings &amp; Reception &mdash; The Big Day",
     dc3_pal: "Anything goes &mdash; bright, jewel tones, pastels, all welcome.",
     dc3_vibe: "Grand and celebratory &mdash; your most festive outfit.",
-    dc3_note: "One note: please avoid ivory and white shades &mdash; reserved for the decor.",
+    dc3_note: "A couple of notes: please avoid <strong>red</strong> (it&rsquo;s the bride&rsquo;s) and steer clear of ivory and white shades &mdash; reserved for the decor.",
     dress_rent: "New to Indian outfits? You don&rsquo;t need to buy a thing &mdash; international guests can find rental and purchase shops in the <a href=\"international.html#outfits\">outfit guide</a>.",
 
     faq_title: "Good to Know",
@@ -197,7 +197,7 @@ const I18N = {
     dc3_event: "वरमाला, अंगूठियाँ और रिसेप्शन &mdash; मुख्य दिन",
     dc3_pal: "कुछ भी चलेगा &mdash; चटख रंग, जूल टोन, पेस्टल, सब स्वागत है।",
     dc3_vibe: "भव्य और उत्सवमय &mdash; अपना सबसे शानदार परिधान।",
-    dc3_note: "एक बात: कृपया आइवरी और सफ़ेद शेड्स से बचें &mdash; ये सजावट के लिए सुरक्षित हैं।",
+    dc3_note: "दो बातें: कृपया <strong>लाल रंग</strong> से बचें (यह दुल्हन के लिए है) और आइवरी व सफ़ेद शेड्स भी न पहनें &mdash; ये सजावट के लिए सुरक्षित हैं।",
     dress_rent: "भारतीय परिधानों से अनजान हैं? आपको कुछ खरीदने की ज़रूरत नहीं &mdash; विदेशी अतिथि किराए और खरीद की दुकानें <a href=\"international.html#outfits\">परिधान गाइड</a> में पा सकते हैं।",
 
     faq_title: "जानने योग्य बातें",
@@ -323,7 +323,7 @@ const I18N = {
     dc3_event: "Guirlandes, alliances &amp; réception &mdash; le grand jour",
     dc3_pal: "Tout est permis &mdash; couleurs vives, tons joyaux, pastels, tous bienvenus.",
     dc3_vibe: "Grandiose et festif &mdash; votre plus belle tenue.",
-    dc3_note: "Une note : merci d&rsquo;éviter l&rsquo;ivoire et le blanc &mdash; réservés au décor.",
+    dc3_note: "Deux notes : merci d&rsquo;éviter le <strong>rouge</strong> (réservé à la mariée) ainsi que l&rsquo;ivoire et le blanc &mdash; réservés au décor.",
     dress_rent: "Vous découvrez les tenues indiennes ? Pas besoin d&rsquo;acheter quoi que ce soit &mdash; les invités internationaux trouveront des boutiques de location et d&rsquo;achat dans le <a href=\"international.html#outfits\">guide des tenues</a>.",
 
     faq_title: "Bon à savoir",
