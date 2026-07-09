@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" preserveAspectRatio="xMidYMax meet" role="img" aria-label="A skyline blending Paris and Jaipur landmarks">
+  <defs>
+    <linearGradient id="ifg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6b1f2a"/>
+      <stop offset="0.55" stop-color="#a85d2a"/>
+      <stop offset="1" stop-color="#c9962b"/>
+    </linearGradient>
+  </defs>
+
+  <g fill="url(#ifg)" fill-opacity="0.14">
+
+    <!-- Parisian rooftops -->
+    <path d="M300 300 L300 262 L318 248 L336 262 L336 300 Z"/>
+    <path d="M340 300 L340 270 L356 258 L372 270 L372 300 Z"/>
+    <rect x="312" y="232" width="4" height="18"/>
+
+    <!-- Eiffel Tower -->
+    <rect x="206" y="26" width="8" height="22"/>
+    <path d="M210 46
+      C216 130 228 235 254 300
+      L236 300
+      C224 240 218 196 214 160
+      Q210 150 206 160
+      C202 196 196 240 184 300
+      L166 300
+      C192 235 204 130 210 46 Z"/>
+    <rect x="190" y="156" width="40" height="9"/>
+    <rect x="198" y="106" width="24" height="8"/>
+
+    <!-- Union heart, centre -->
+    <path d="M600 56
+      C594 45 577 47 577 60
+      C577 72 594 80 600 87
+      C606 80 623 72 623 60
+      C623 47 606 45 600 56 Z"/>
+
+    <!-- Jaipur palace: crenellated wall -->
+    <rect x="820" y="252" width="360" height="48"/>
+    <g>
+      <rect x="824" y="244" width="12" height="10"/>
+      <rect x="852" y="244" width="12" height="10"/>
+      <rect x="880" y="244" width="12" height="10"/>
+      <rect x="908" y="244" width="12" height="10"/>
+      <rect x="936" y="244" width="12" height="10"/>
+      <rect x="964" y="244" width="12" height="10"/>
+      <rect x="992" y="244" width="12" height="10"/>
+      <rect x="1020" y="244" width="12" height="10"/>
+      <rect x="1048" y="244" width="12" height="10"/>
+      <rect x="1076" y="244" width="12" height="10"/>
+      <rect x="1104" y="244" width="12" height="10"/>
+      <rect x="1132" y="244" width="12" height="10"/>
+      <rect x="1160" y="244" width="12" height="10"/>
+    </g>
+
+    <!-- Central onion-dome tower -->
+    <rect x="978" y="175" width="44" height="77"/>
+    <path d="M978 178 C972 150 980 120 1000 120 C1020 120 1028 150 1022 178 Z"/>
+    <rect x="997" y="100" width="6" height="22"/>
+    <circle cx="1000" cy="97" r="6"/>
+
+    <!-- Left chhatri kiosk -->
+    <rect x="858" y="204" width="50" height="48"/>
+    <path d="M858 206 C862 180 904 180 906 206 Z"/>
+    <rect x="880" y="164" width="6" height="18"/>
+    <circle cx="883" cy="162" r="5"/>
+
+    <!-- Right chhatri kiosk -->
+    <rect x="1096" y="204" width="50" height="48"/>
+    <path d="M1096 206 C1100 180 1142 180 1144 206 Z"/>
+    <rect x="1118" y="164" width="6" height="18"/>
+    <circle cx="1121" cy="162" r="5"/>
+
+  </g>
+</svg>
