@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gift Registry — Sonali &amp; Thomas, February 2027</title>
+  <meta name="description" content="Gift registry for Sonali &amp; Thomas's wedding. Reserve a gift and it shows as taken for everyone else, so nothing gets doubled up." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500&family=Noto+Sans+Devanagari:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-nav" id="top">
+    <div class="nav-inner">
+      <a href="index.html" class="brand">S &amp; T</a>
+      <div class="nav-right">
+        <nav class="nav-links">
+          <a href="index.html#events" data-i18n="nav_events">Events</a>
+          <a href="index.html#venue" data-i18n="nav_venue">Venue</a>
+          <a href="index.html#faq" data-i18n="nav_faq">FAQ</a>
+          <a href="international.html" data-i18n="nav_guide">Guest Guide</a>
+        </nav>
+        <div class="lang-switch" aria-label="Language">
+          <button type="button" class="lang-current" aria-haspopup="listbox" aria-expanded="false">
+            <span class="lang-flag">🇬🇧</span><span class="lang-name">English</span><span class="lang-caret">▾</span>
+          </button>
+          <ul class="lang-menu" role="listbox">
+            <li><button type="button" data-lang="en"><span class="lang-flag">🇬🇧</span><span>English</span></button></li>
+            <li><button type="button" data-lang="hi" lang="hi"><span class="lang-flag">🇮🇳</span><span>हिंदी</span></button></li>
+            <li><button type="button" data-lang="fr"><span class="lang-flag">🇫🇷</span><span>Français</span></button></li>
+          </ul>
+        </div>
+        <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- SUB HERO -->
+  <section class="hero hero--sub">
+    <div class="hero-content">
+      <p class="hero-kicker" data-i18n="reg_kicker">If you&rsquo;d like to give something</p>
+      <h1 class="hero-names" data-i18n="reg_title">Gift Registry</h1>
+      <p class="hero-place"><a href="index.html" data-i18n="reg_home">&larr; Back to the wedding home</a></p>
+    </div>
+  </section>
+
+  <!-- INTRO -->
+  <section class="section section--narrow">
+    <p class="lead" data-i18n="reg_intro">
+      Your presence at our wedding is the greatest gift of all. If you&rsquo;d like
+      to give something more, we&rsquo;ve gathered a few ideas below. When you
+      reserve an item it shows as taken for everyone else &mdash; so there&rsquo;s no
+      coordinating, and nothing gets doubled up.
+    </p>
+    <p id="registry-offline" class="registry-offline" data-i18n="reg_offline" hidden>
+      The live list isn&rsquo;t connected yet &mdash; items below can&rsquo;t be
+      reserved for now. Please check back soon.
+    </p>
+  </section>
+
+  <!-- REGISTRY GRID -->
+  <section class="section section--alt">
+    <div id="registry-grid" class="registry-grid"><!-- filled by registry.js --></div>
+    <p class="muted registry-hint" data-i18n="reg_note">
+      Reserved something by mistake? You can release it again from this device.
+    </p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" id="contact">
+    <h2 class="footer-title" data-i18n="footer_title">With love, Sonali &amp; Thomas</h2>
+    <p class="footer-date" data-i18n="footer_date">22 &ndash; 23 February 2027 &middot; Ridhi Resort, Jaipur</p>
+  </footer>
+
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/registry.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

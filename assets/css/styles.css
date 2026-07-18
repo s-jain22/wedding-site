@@ -356,12 +356,25 @@ a { color: var(--maroon); }
 .attire-item[open] > summary { border-bottom: 1px solid #f0e6d6; }
 
 .attire-name { display: flex; flex-direction: column; margin-right: auto; }
-.attire-name [lang="hi"] {
+.attire-title {
   font-family: var(--serif);
   color: var(--maroon);
   font-size: 1.45rem;
-  line-height: 1.1;
+  line-height: 1.15;
 }
+.attire-title [lang="hi"] {
+  font-size: 1.05rem;
+  font-weight: 400;
+  color: var(--muted);
+}
+.attire-phon {
+  font-family: var(--sans);
+  font-style: italic;
+  font-size: .82rem;
+  color: var(--muted);
+  margin-top: .1rem;
+}
+.attire-phon:empty { display: none; }
 .attire-en {
   font-family: var(--sans);
   font-weight: 400;
@@ -369,7 +382,7 @@ a { color: var(--maroon); }
   letter-spacing: .14em;
   text-transform: uppercase;
   color: var(--muted);
-  margin-top: .2rem;
+  margin-top: .25rem;
 }
 .palette {
   display: flex;
@@ -400,6 +413,87 @@ a { color: var(--maroon); }
 }
 .attire-note--warn { color: #8a3b1e; }
 .attire-rent { text-align: center; margin: 2.2rem auto 0; max-width: 620px; }
+
+/* ---------- Gift registry ---------- */
+.registry-offline {
+  max-width: 720px;
+  margin: 1.4rem auto 0;
+  text-align: center;
+  background: #fbeecf;
+  border: 1px solid #e6cf94;
+  border-radius: 8px;
+  padding: .9rem 1.2rem;
+  font-family: var(--sans);
+  font-size: .95rem;
+  color: #8a6a1e;
+}
+.registry-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+.gift-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--cream);
+  border: 1px solid #e6d8c4;
+  border-radius: 10px;
+  padding: 1.6rem;
+  box-shadow: 0 8px 22px rgba(107,31,42,.05);
+  transition: opacity .2s, border-color .2s;
+}
+.gift-card.is-reserved { opacity: .62; border-color: #ded1bd; }
+.gift-card.is-reserved.is-mine { opacity: 1; border-color: var(--marigold); }
+.gift-body { flex: 1; }
+.gift-name { color: var(--maroon); font-size: 1.4rem; margin: 0 0 .4rem; }
+.gift-note { color: #5d5249; margin: 0 0 .6rem; font-size: .98rem; font-family: var(--serif); }
+.gift-price {
+  margin: 0;
+  font-size: .82rem;
+  letter-spacing: .06em;
+  color: var(--muted);
+}
+.gift-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #efe2cf;
+}
+.gift-view {
+  font-size: .74rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--maroon);
+  border-bottom: 1px solid transparent;
+  transition: border-color .2s;
+}
+.gift-view:hover { border-color: var(--gold); }
+.gift-btn {
+  margin-left: auto;
+  border: 1px solid var(--maroon);
+  background: var(--maroon);
+  color: var(--cream);
+  font-family: var(--sans);
+  font-size: .74rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  padding: .55rem 1.1rem;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background .2s, color .2s, border-color .2s;
+}
+.gift-btn:hover:not(:disabled) { background: var(--maroon-deep); border-color: var(--maroon-deep); }
+.gift-btn:disabled { background: transparent; color: var(--muted); border-color: #ddceb8; cursor: default; }
+.gift-btn--release {
+  background: transparent;
+  color: var(--maroon);
+  border-color: var(--gold);
+}
+.gift-btn--release:hover:not(:disabled) { background: var(--marigold); color: var(--cream); border-color: var(--marigold); }
+.registry-hint { text-align: center; margin: 2.2rem auto 0; max-width: 620px; }
 
 /* ---------- Shop / rental list (guide page) ---------- */
 .shop-h {
@@ -477,7 +571,7 @@ a { color: var(--maroon); }
     display: none;
   }
   .nav-links.open { display: flex; }
-  .two-col, .card-grid { grid-template-columns: 1fr; }
+  .two-col, .card-grid, .registry-grid { grid-template-columns: 1fr; }
 
   .day-head { flex-direction: column; gap: .3rem; padding: 1.1rem 1.2rem; }
   .day-date { font-size: 1.35rem; }

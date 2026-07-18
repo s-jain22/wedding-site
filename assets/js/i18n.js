@@ -5,6 +5,14 @@ const I18N = {
     nav_events: "Events", nav_venue: "Venue", nav_travel: "Getting There",
     nav_stay: "Stay", nav_attire: "Attire", nav_faq: "FAQ",
     nav_guide: "Guest Guide",
+    nav_registry: "Registry",
+
+    reg_kicker: "If you&rsquo;d like to give something",
+    reg_title: "Gift Registry",
+    reg_intro: "Your presence at our wedding is the greatest gift of all. If you&rsquo;d like to give something more, we&rsquo;ve gathered a few ideas below. When you reserve an item it shows as taken for everyone else &mdash; so there&rsquo;s no coordinating, and nothing gets doubled up.",
+    reg_home: "&larr; Back to the wedding home",
+    reg_note: "Reserved something by mistake? You can release it again from this device.",
+    reg_offline: "The live list isn&rsquo;t connected yet &mdash; items below can&rsquo;t be reserved for now. Please check back soon.",
 
     ig_kicker: "For our international guests",
     ig_title: "A Guide to Jaipur",
@@ -71,13 +79,13 @@ const I18N = {
     d1r1_t: "Morning", d1r1_e: "Arrivals", d1r1_d: "Transfers to Ridhi Resort.",
     d1r2_t: "Noon", d1r2_e: "Welcome Lunch", d1r2_d: "A relaxed lunch to welcome everyone, hosted by Sonali&rsquo;s family, who are from Jaipur.",
     d1r3_t: "Afternoon onwards", d1r3_e: "Check-in", d1r3_d: "Ridhi Resort, Jaipur",
-    d1r4_t: "3:00 PM", d1r4_e: "Mehendi", d1r4_d: "Intricate henna designs are applied to the hands of the bride and the women guests &mdash; a colourful, social afternoon. Everyone is welcome to get henna too.",
-    d1r5_t: "6:00 &ndash; 7:00 PM", d1r5_e: "Mayra", d1r5_d: "A traditional family ceremony in which the bride&rsquo;s maternal uncle and his family arrive with gifts and blessings.",
+    d1r4_t: "3:00 PM", d1r4_e: "Mehendi (meh-HEN-dee)", d1r4_d: "Intricate henna designs are applied to the hands of the bride and the women guests &mdash; a colourful, social afternoon. Everyone is welcome to get henna too.",
+    d1r5_t: "6:00 &ndash; 7:00 PM", d1r5_e: "Mayra (MY-ruh)", d1r5_d: "A traditional family ceremony in which the bride&rsquo;s maternal uncle and his family arrive with gifts and blessings.",
 
-    d2r1_t: "6:00 &ndash; 7:00 AM", d2r1_e: "Bindayak", d2r1_d: "An auspicious opening ceremony that marks the formal start of the wedding rituals.",
-    d2r2_t: "10:00 AM", d2r2_e: "Haldi", d2r2_d: "A turmeric paste is applied to the bride and groom for blessings and a natural glow before the wedding &mdash; expect bright yellow and plenty of laughter.",
-    d2r3_t: "4:30 PM", d2r3_e: "Baraat", d2r3_d: "The groom&rsquo;s festive arrival procession, with music and dancing on the way to the venue &mdash; guests are warmly invited to join in.",
-    d2r4_t: "5:00 PM", d2r4_e: "Phera &amp; Varmala", d2r4_d: "The heart of the wedding, held together: the couple exchange flower garlands (Varmala) to mark their union, then take their vows while circling a sacred fire (Phera), accompanied by live music.",
+    d2r1_t: "6:00 &ndash; 7:00 AM", d2r1_e: "Bindayak (bin-DAA-yak)", d2r1_d: "An auspicious opening ceremony that marks the formal start of the wedding rituals.",
+    d2r2_t: "10:00 AM", d2r2_e: "Haldi (HUL-dee)", d2r2_d: "A turmeric paste is applied to the bride and groom for blessings and a natural glow before the wedding &mdash; expect bright yellow and plenty of laughter.",
+    d2r3_t: "4:30 PM", d2r3_e: "Baraat (buh-RAAT)", d2r3_d: "The groom&rsquo;s festive arrival procession, with music and dancing on the way to the venue &mdash; guests are warmly invited to join in.",
+    d2r4_t: "5:00 PM", d2r4_e: "Phera &amp; Varmala (FEH-ra &amp; var-MAA-la)", d2r4_d: "The heart of the wedding, held together: the couple exchange flower garlands (Varmala) to mark their union, then take their vows while circling a sacred fire (Phera), accompanied by live music.",
     d2r5b_t: "7:30 PM", d2r5b_e: "Ring &amp; Vows Exchange", d2r5b_d: "An intimate moment bridging the Hindu ceremony and the Western tradition &mdash; Sonali and Thomas exchange rings and personal vows, just before the reception.",
     d2r6_t: "8:30 PM", d2r6_e: "Live Band Reception", d2r6_d: "Dinner, drinks and dancing with a live band to close the celebrations.",
 
@@ -106,10 +114,16 @@ const I18N = {
 
     attire_title: "What to Wear",
     dress_lead: "All suggestions, never rules. Dress traditionally if you&rsquo;d like, or don&rsquo;t. These are just inspiration palettes to have fun with.",
+    dc1_name: "Mehendi <span lang=\"hi\">(मेहंदी)</span>",
+    dc1_phon: "meh-HEN-dee",
     dc1_event: "The Henna Ceremony",
     dc1_note: "Wear whatever makes you feel festive. Greens are especially welcome!",
+    dc2_name: "Haldi <span lang=\"hi\">(हल्दी)</span>",
+    dc2_phon: "HUL-dee",
     dc2_event: "The Turmeric Ceremony",
     dc2_note: "Lean into yellow. The sunnier, the better!",
+    dc3_name: "Varmala <span lang=\"hi\">(वरमाला)</span>",
+    dc3_phon: "var-MAA-la",
     dc3_event: "Garlands, Rings &amp; Reception &mdash; The Big Day",
     dc3_note: "Please skip bright reds. Save green and yellow for the earlier days.",
     dress_rent: "New to Indian outfits? You don&rsquo;t need to buy a thing. International guests can find rental and purchase shops in the <a href=\"international.html#outfits\">outfit guide</a>.",
@@ -122,13 +136,20 @@ const I18N = {
 
     footer_title: "With love, Sonali &amp; Thomas",
     footer_date: "22 &ndash; 23 February 2027 &middot; Ridhi Resort, Jaipur",
-    footer_contact: 'Questions? Call us on <a href="tel:+33766345584">+33 7 66 34 55 84</a> or <a href="tel:+33669466665">+33 6 69 46 66 65</a>.',
   },
 
   hi: {
     nav_events: "कार्यक्रम", nav_venue: "स्थल", nav_travel: "कैसे पहुँचें",
     nav_stay: "ठहराव", nav_attire: "परिधान", nav_faq: "सामान्य प्रश्न",
     nav_guide: "अतिथि गाइड",
+    nav_registry: "उपहार सूची",
+
+    reg_kicker: "यदि आप कुछ भेंट देना चाहें",
+    reg_title: "उपहार सूची",
+    reg_intro: "हमारे विवाह में आपकी उपस्थिति ही सबसे बड़ा उपहार है। यदि आप इसके अलावा कुछ देना चाहें, तो नीचे कुछ सुझाव दिए हैं। जब आप कोई वस्तु आरक्षित करते हैं, तो वह बाकी सभी के लिए &lsquo;ले ली गई&rsquo; दिखने लगती है &mdash; इसलिए न कोई तालमेल की ज़रूरत, न ही कोई चीज़ दोहरी होगी।",
+    reg_home: "&larr; विवाह मुखपृष्ठ पर वापस जाएँ",
+    reg_note: "गलती से कुछ आरक्षित कर लिया? आप इसी डिवाइस से उसे फिर से मुक्त कर सकते हैं।",
+    reg_offline: "लाइव सूची अभी जुड़ी नहीं है &mdash; फ़िलहाल नीचे दी वस्तुएँ आरक्षित नहीं की जा सकतीं। कृपया थोड़ी देर बाद देखें।",
 
     hero_kicker: "प्रेम के साथ, हम आपको इस उत्सव में आमंत्रित करते हैं",
     hero_date: "22 &ndash; 23 फ़रवरी 2027",
@@ -184,10 +205,16 @@ const I18N = {
 
     attire_title: "क्या पहनें",
     dress_lead: "ये सिर्फ़ सुझाव हैं, नियम नहीं। पारंपरिक परिधान पहनना चाहें तो ज़रूर पहनें, या न पहनें। ये बस प्रेरणा के लिए रंग-संयोजन हैं।",
+    dc1_name: "मेहंदी",
+    dc1_phon: "",
     dc1_event: "मेहंदी समारोह",
     dc1_note: "जो पहनकर आपको उत्सव जैसा लगे वही पहनें। हरे रंग का विशेष स्वागत है!",
+    dc2_name: "हल्दी",
+    dc2_phon: "",
     dc2_event: "हल्दी समारोह",
     dc2_note: "पीले रंग को अपनाएँ। जितना चटक, उतना अच्छा!",
+    dc3_name: "वरमाला",
+    dc3_phon: "",
     dc3_event: "वरमाला, अंगूठियाँ और रिसेप्शन &mdash; मुख्य दिन",
     dc3_note: "कृपया चटख लाल रंग से बचें। हरे व पीले रंग पिछले दिनों के लिए रहने दें।",
     dress_rent: "भारतीय परिधानों से अनजान हैं? आपको कुछ खरीदने की ज़रूरत नहीं। विदेशी अतिथि किराए और खरीद की दुकानें <a href=\"international.html#outfits\">परिधान गाइड</a> में पा सकते हैं।",
@@ -200,13 +227,20 @@ const I18N = {
 
     footer_title: "सस्नेह, सोनाली और थॉमस",
     footer_date: "22 &ndash; 23 फ़रवरी 2027 &middot; रिधि रिज़ॉर्ट, जयपुर",
-    footer_contact: 'सवाल? हमें कॉल करें <a href="tel:+33766345584">+33 7 66 34 55 84</a> या <a href="tel:+33669466665">+33 6 69 46 66 65</a>।',
   },
 
   fr: {
     nav_events: "Programme", nav_venue: "Lieu", nav_travel: "Accès",
     nav_stay: "Hébergement", nav_attire: "Tenue", nav_faq: "FAQ",
     nav_guide: "Guide invités",
+    nav_registry: "Liste de mariage",
+
+    reg_kicker: "Si vous souhaitez offrir quelque chose",
+    reg_title: "Liste de mariage",
+    reg_intro: "Votre présence à notre mariage est le plus beau des cadeaux. Si vous souhaitez offrir quelque chose de plus, voici quelques idées ci-dessous. Lorsque vous réservez un article, il apparaît comme &laquo; pris &raquo; pour tout le monde &mdash; aucune coordination nécessaire, et rien n&rsquo;est offert en double.",
+    reg_home: "&larr; Retour à l&rsquo;accueil du mariage",
+    reg_note: "Réservé quelque chose par erreur ? Vous pouvez le libérer depuis cet appareil.",
+    reg_offline: "La liste en direct n&rsquo;est pas encore connectée &mdash; les articles ci-dessous ne peuvent pas être réservés pour l&rsquo;instant. Revenez bientôt.",
 
     ig_kicker: "Pour nos invités internationaux",
     ig_title: "Guide de Jaipur",
@@ -273,13 +307,13 @@ const I18N = {
     d1r1_t: "Matin", d1r1_e: "Arrivées", d1r1_d: "Transferts vers le Ridhi Resort.",
     d1r2_t: "Midi", d1r2_e: "Déjeuner de bienvenue", d1r2_d: "Un déjeuner convivial pour accueillir tout le monde, offert par la famille de Sonali, originaire de Jaipur.",
     d1r3_t: "À partir de l&rsquo;après-midi", d1r3_e: "Arrivée à l&rsquo;hôtel", d1r3_d: "Ridhi Resort, Jaipur",
-    d1r4_t: "15h00", d1r4_e: "Mehendi", d1r4_d: "De fins motifs au henné sont appliqués sur les mains de la mariée et des invitées &mdash; un après-midi coloré et convivial. Chacun peut aussi se faire faire un henné.",
-    d1r5_t: "18h00 &ndash; 19h00", d1r5_e: "Mayra", d1r5_d: "Une cérémonie familiale traditionnelle où l&rsquo;oncle maternel de la mariée et sa famille arrivent avec cadeaux et bénédictions.",
+    d1r4_t: "15h00", d1r4_e: "Mehendi (meh-HEN-dee)", d1r4_d: "De fins motifs au henné sont appliqués sur les mains de la mariée et des invitées &mdash; un après-midi coloré et convivial. Chacun peut aussi se faire faire un henné.",
+    d1r5_t: "18h00 &ndash; 19h00", d1r5_e: "Mayra (MY-ruh)", d1r5_d: "Une cérémonie familiale traditionnelle où l&rsquo;oncle maternel de la mariée et sa famille arrivent avec cadeaux et bénédictions.",
 
-    d2r1_t: "6h00 &ndash; 7h00", d2r1_e: "Bindayak", d2r1_d: "Une cérémonie d&rsquo;ouverture de bon augure qui marque le début officiel des rituels du mariage.",
-    d2r2_t: "10h00", d2r2_e: "Haldi", d2r2_d: "Une pâte de curcuma est appliquée sur les mariés pour les bénir et leur donner un éclat naturel avant le mariage &mdash; beaucoup de jaune et de rires.",
-    d2r3_t: "16h30", d2r3_e: "Baraat", d2r3_d: "La procession festive d&rsquo;arrivée du marié, avec musique et danse jusqu&rsquo;au lieu &mdash; les invités sont chaleureusement conviés à se joindre.",
-    d2r4_t: "17h00", d2r4_e: "Phera &amp; Varmala", d2r4_d: "Le cœur du mariage, réuni : les mariés échangent des guirlandes de fleurs (Varmala) pour célébrer leur union, puis prononcent leurs vœux en tournant autour d&rsquo;un feu sacré (Phera), accompagnés de musique live.",
+    d2r1_t: "6h00 &ndash; 7h00", d2r1_e: "Bindayak (bin-DAA-yak)", d2r1_d: "Une cérémonie d&rsquo;ouverture de bon augure qui marque le début officiel des rituels du mariage.",
+    d2r2_t: "10h00", d2r2_e: "Haldi (HUL-dee)", d2r2_d: "Une pâte de curcuma est appliquée sur les mariés pour les bénir et leur donner un éclat naturel avant le mariage &mdash; beaucoup de jaune et de rires.",
+    d2r3_t: "16h30", d2r3_e: "Baraat (buh-RAAT)", d2r3_d: "La procession festive d&rsquo;arrivée du marié, avec musique et danse jusqu&rsquo;au lieu &mdash; les invités sont chaleureusement conviés à se joindre.",
+    d2r4_t: "17h00", d2r4_e: "Phera &amp; Varmala (FEH-ra &amp; var-MAA-la)", d2r4_d: "Le cœur du mariage, réuni : les mariés échangent des guirlandes de fleurs (Varmala) pour célébrer leur union, puis prononcent leurs vœux en tournant autour d&rsquo;un feu sacré (Phera), accompagnés de musique live.",
     d2r5b_t: "19h30", d2r5b_e: "Échange des alliances et des vœux", d2r5b_d: "Un moment intime qui relie la cérémonie hindoue à la tradition occidentale &mdash; Sonali et Thomas échangent alliances et vœux personnels, juste avant la réception.",
     d2r6_t: "20h30", d2r6_e: "Réception avec groupe live", d2r6_d: "Dîner, boissons et danse avec un groupe live pour clôturer les célébrations.",
 
@@ -308,10 +342,16 @@ const I18N = {
 
     attire_title: "Quoi porter",
     dress_lead: "Des suggestions, jamais des règles. Portez une tenue traditionnelle si vous le souhaitez, ou non. Ce ne sont que des palettes d&rsquo;inspiration pour s&rsquo;amuser.",
+    dc1_name: "Mehendi <span lang=\"hi\">(मेहंदी)</span>",
+    dc1_phon: "meh-HEN-dee",
     dc1_event: "La cérémonie du henné",
     dc1_note: "Portez ce qui vous met dans l&rsquo;ambiance. Le vert est particulièrement bienvenu !",
+    dc2_name: "Haldi <span lang=\"hi\">(हल्दी)</span>",
+    dc2_phon: "HUL-dee",
     dc2_event: "La cérémonie du curcuma",
     dc2_note: "Misez sur le jaune. Plus c&rsquo;est lumineux, mieux c&rsquo;est !",
+    dc3_name: "Varmala <span lang=\"hi\">(वरमाला)</span>",
+    dc3_phon: "var-MAA-la",
     dc3_event: "Guirlandes, alliances &amp; réception &mdash; le grand jour",
     dc3_note: "Merci d&rsquo;éviter les rouges vifs. Gardez le vert et le jaune pour les jours précédents.",
     dress_rent: "Vous découvrez les tenues indiennes ? Pas besoin d&rsquo;acheter quoi que ce soit. Les invités internationaux trouveront des boutiques de location et d&rsquo;achat dans le <a href=\"international.html#outfits\">guide des tenues</a>.",
@@ -324,7 +364,6 @@ const I18N = {
 
     footer_title: "Avec amour, Sonali &amp; Thomas",
     footer_date: "22 &ndash; 23 février 2027 &middot; Ridhi Resort, Jaipur",
-    footer_contact: 'Des questions ? Appelez-nous au <a href="tel:+33766345584">+33 7 66 34 55 84</a> ou au <a href="tel:+33669466665">+33 6 69 46 66 65</a>.',
   },
 };
 
@@ -371,6 +410,9 @@ function applyLang(lang, persist = true) {
   if (persist) {
     try { localStorage.setItem("lang", lang); } catch (e) {}
   }
+
+  // Let other scripts (e.g. the registry) re-label content they render themselves.
+  document.dispatchEvent(new CustomEvent("langchange", { detail: lang }));
 }
 
 if (switchEl) {
