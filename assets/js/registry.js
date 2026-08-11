@@ -3,14 +3,14 @@
    ----------------------------------------------------------------------------
    Two things live in this file, and both are meant to be edited by hand:
 
-   1) GIFTS  — the list of gift ideas shown on the page. Edit freely.
-   2) firebaseConfig — connects the "reserved / still available" state so that
+   1) GIFTS , the list of gift ideas shown on the page. Edit freely.
+   2) firebaseConfig, connects the "reserved / still available" state so that
       when one guest reserves an item, every other guest sees it as taken.
 
    HOW THE SHARED STATE WORKS
    Guests do not have accounts. The shared truth of "what's already reserved"
    lives in a free Firebase Firestore database. This device also remembers
-   which items *you* reserved (in localStorage), so you — and only you — get a
+   which items *you* reserved (in localStorage), so you, and only you, get a
    "Release" button to undo your own reservation.
 
    >>> UNTIL firebaseConfig IS FILLED IN, the page still works and shows every
@@ -46,7 +46,7 @@
 
 // ---- 1) YOUR GIFT LIST -----------------------------------------------------
 // Edit these. `id` must be unique and stable (don't reuse an old id for a new
-// gift). `url` is optional — a link to view/buy the item. `price` is a plain
+// gift). `url` is optional, a link to view/buy the item. `price` is a plain
 // string so you can write it however you like ("₹4,000", "€45", "").
 const GIFTS = [
   { id: "gift-01", name: "Cast-iron cookware set", price: "", url: "", note: "For the many dinners we plan to cook together." },
@@ -71,13 +71,13 @@ const firebaseConfig = {
 
 // ---- Dynamic button labels (chrome text is handled by i18n.js) -------------
 const LABELS = {
-  en: { reserve: "Reserve this gift", reserved: "Reserved", release: "Release", view: "View gift", prompt: "Your name (optional) — so we can say thank you:" },
-  hi: { reserve: "यह उपहार आरक्षित करें", reserved: "आरक्षित", release: "मुक्त करें", view: "देखें", prompt: "आपका नाम (वैकल्पिक) — ताकि हम धन्यवाद कह सकें:" },
-  fr: { reserve: "Réserver ce cadeau", reserved: "Réservé", release: "Libérer", view: "Voir le cadeau", prompt: "Votre nom (facultatif) — pour vous remercier :" },
+  en: { reserve: "Reserve this gift", reserved: "Reserved", release: "Release", view: "View gift", prompt: "Your name (optional), so we can say thank you:" },
+  hi: { reserve: "यह उपहार आरक्षित करें", reserved: "आरक्षित", release: "मुक्त करें", view: "देखें", prompt: "आपका नाम (वैकल्पिक), ताकि हम धन्यवाद कह सकें:" },
+  fr: { reserve: "Réserver ce cadeau", reserved: "Réservé", release: "Libérer", view: "Voir le cadeau", prompt: "Votre nom (facultatif), pour vous remercier :" },
 };
 
 // ============================================================================
-// Below here is machinery — you shouldn't need to edit it.
+// Below here is machinery, you shouldn't need to edit it.
 // ============================================================================
 
 const CONFIGURED = Boolean(firebaseConfig.projectId && firebaseConfig.apiKey);
