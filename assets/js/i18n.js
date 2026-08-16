@@ -2,9 +2,11 @@
 // and lives in the HTML, so the page still works if this script fails.
 const I18N = {
   en: {
+    nav_home: "Home",
     nav_events: "Events", nav_venue: "Venue", nav_travel: "Getting There",
     nav_stay: "Stay", nav_attire: "Attire", nav_faq: "FAQ",
-    nav_guide: "Guest Guide",
+    nav_guide: "International Guest Guide",
+    nav_guide_hint: "Opens our guide for international guests, on a separate page",
     nav_registry: "Registry",
 
     reg_kicker: "If you&rsquo;d like to give something",
@@ -153,10 +155,14 @@ const I18N = {
   },
 
   hi: {
+    nav_home: "होम",
     nav_events: "कार्यक्रम", nav_venue: "स्थल", nav_travel: "कैसे पहुँचें",
     nav_stay: "ठहराव", nav_attire: "परिधान", nav_faq: "सामान्य प्रश्न",
-    nav_guide: "अतिथि गाइड",
+    nav_guide: "अंतरराष्ट्रीय अतिथि गाइड",
+    nav_guide_hint: "अंतरराष्ट्रीय अतिथियों के लिए हमारी गाइड, एक अलग पेज पर खुलेगी",
     nav_registry: "उपहार सूची",
+    ignav_visa: "वीज़ा", ignav_flights: "उड़ानें", ignav_stay: "ठहराव",
+    ignav_outfits: "परिधान", ignav_eat: "खानपान", ignav_see: "घूमना", ignav_delhi: "दिल्ली", ignav_tips: "सुझाव",
 
     reg_kicker: "यदि आप कुछ भेंट देना चाहें",
     reg_title: "उपहार सूची",
@@ -255,9 +261,11 @@ const I18N = {
   },
 
   fr: {
+    nav_home: "Accueil",
     nav_events: "Programme", nav_venue: "Lieu", nav_travel: "Accès",
     nav_stay: "Hébergement", nav_attire: "Tenue", nav_faq: "FAQ",
-    nav_guide: "Guide invités",
+    nav_guide: "Guide invités international",
+    nav_guide_hint: "Ouvre notre guide pour les invités internationaux, sur une autre page",
     nav_registry: "Liste de mariage",
 
     reg_kicker: "Si vous souhaitez offrir quelque chose",
@@ -430,6 +438,11 @@ function applyLang(lang, persist = true) {
   document.querySelectorAll("[data-i18n]").forEach((el) => {
     const value = dict[el.getAttribute("data-i18n")];
     if (value !== undefined) el.innerHTML = value;
+  });
+
+  document.querySelectorAll("[data-i18n-title]").forEach((el) => {
+    const value = dict[el.getAttribute("data-i18n-title")];
+    if (value !== undefined) el.setAttribute("title", value);
   });
 
   if (switchEl) {
