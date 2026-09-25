@@ -257,6 +257,7 @@ a { color: var(--maroon); }
   margin: 1.2rem 0 .2rem;
 }
 .hero-place { letter-spacing: .2em; text-transform: uppercase; font-size: .8rem; color: var(--muted); margin: 0 0 2rem; }
+.hero-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: .8rem; }
 
 /* ---------- Buttons ---------- */
 .btn {
@@ -398,6 +399,9 @@ a { color: var(--maroon); }
 
 /* ---------- Layout helpers ---------- */
 .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem; align-items: start; }
+.venue-detail { max-width: 42rem; margin: 0 auto; }
+#venue { padding-bottom: 2.5rem; }
+#travel { padding-top: 3rem; padding-bottom: 3rem; }
 .card-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
 .info-card {
   background: var(--cream);
@@ -655,9 +659,38 @@ a { color: var(--maroon); }
 .shop-desc { display: block; margin-top: .25rem; color: #5d5249; font-size: .98rem; }
 .shop-note { margin-top: 1.4rem; }
 
-/* ---------- Map ---------- */
-.map-frame { aspect-ratio: 4 / 3; border-radius: 6px; overflow: hidden; border: 1px solid #e6d8c4; }
-.map-frame iframe { width: 100%; height: 100%; border: 0; }
+/* ---------- Travel accordion ---------- */
+.travel-list { max-width: 760px; margin: 0 auto; }
+.travel-item {
+  background: var(--cream);
+  border: 1px solid #e6d8c4;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  box-shadow: 0 8px 22px rgba(107,31,42,.05);
+}
+.travel-item > summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.1rem 1.4rem;
+  font-family: var(--serif);
+  font-size: 1.25rem;
+  background: linear-gradient(120deg, var(--maroon), var(--maroon-deep));
+  color: var(--cream);
+}
+.travel-item > summary::-webkit-details-marker { display: none; }
+.travel-item > summary::after {
+  content: "+";
+  color: var(--marigold);
+  font-size: 1.5rem;
+  line-height: 1;
+}
+.travel-item[open] > summary::after { content: "\2212"; }
+.travel-item .info-card-body { padding: 1.1rem 1.4rem 1.3rem; }
 
 /* ---------- FAQ ---------- */
 .faq { max-width: 760px; margin: 0 auto; }

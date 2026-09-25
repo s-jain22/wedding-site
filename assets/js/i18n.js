@@ -28,7 +28,7 @@ const I18N = {
     ignav_outfits: "Outfits", ignav_eat: "Eat", ignav_see: "See", ignav_delhi: "Delhi", ignav_tips: "Tips",
 
     ig_visa_h: "Visa &amp; Entry",
-    ig_visa_p: "Most visitors need a visa to enter India. The simplest option for tourists is the <strong>e-Visa</strong>, applied for online before you travel at the official portal (indianvisaonline.gov.in). You&rsquo;ll also need to complete an <strong>Arrival Card</strong>, which must be filed within 48 hours before you land. Apply for your visa at least 1&ndash;2 weeks ahead. Your passport should be valid for at least six months from your date of arrival and have two blank pages. Always check the current visa requirements for your nationality.",
+    ig_visa_p: "Most visitors need a visa to enter India. The simplest option for tourists is the <strong>e-Visa</strong>, applied for online before you travel at the official portal (indianvisaonline.gov.in). You&rsquo;ll also need to complete an <strong>Arrival Card</strong>, which must be filed within 48 hours before you land. Apply for your visa at least 1&ndash;2 weeks ahead. Your passport should be valid for at least six months from your date of arrival and have two blank pages. Always check the current visa requirements for your nationality. Visa assistance is available for guests travelling internationally, just let us know if you&rsquo;d like a hand. You can apply at the official portal: <a href=\"https://indianvisaonline.gov.in/evisa\" target=\"_blank\" rel=\"noopener\">indianvisaonline.gov.in/evisa</a>.",
     ig_health_h: "Health &amp; Vaccinations",
     ig_health_p: "It&rsquo;s worth checking with your doctor or a travel clinic which vaccinations or health precautions are recommended for India, and getting any shots you need. These don&rsquo;t have to be close to your travel dates, so book them in whenever suits you best.",
 
@@ -70,7 +70,7 @@ const I18N = {
 
     hero_tagline: "What started as one coffee has been brewing into forever ever since.",
     hero_invite: "Join us as we celebrate love",
-    hero_date: "22 &ndash; 23 February 2027",
+    hero_date: "22 &ndash; 24 February 2027",
     hero_place: "Ridhi Resort &middot; Jaipur, India",
     hero_cta: "View the celebrations",
 
@@ -112,12 +112,12 @@ const I18N = {
     venue_title: "The Venue",
     venue_h: "Ridhi Resort, Jaipur",
     venue_p: "All events take place at Ridhi Resort, Jaipur. The resort offers a relaxed setting for the celebrations, with space for both ceremonies and quieter moments between events.",
-    venue_note: "Mandau Road, near Patrakar Colony, Mansarovar Extension, Sanganer, Muhana, Jaipur, Rajasthan 302029, India.",
+    venue_note: "The full address and directions will be shared with confirmed guests closer to the date.",
     venue_cta: "Open in Google Maps",
 
     travel_title: "Getting There",
     air_h: "By Air",
-    air_p: "<ul class=\"info-list\"><li><strong>From Paris:</strong> Emirates via Dubai to Jaipur (JAI) is our recommendation, around <strong>13 hours total</strong> including the layover.</li><li><strong>Alternative:</strong> Air France from CDG to Jaipur, usually with a layover (often via Amsterdam and Delhi), roughly <strong>15&ndash;20 hours</strong> all in.</li><li><strong>Direct option:</strong> Fly Paris to Delhi direct, then take a taxi the remaining ~300&nbsp;km (roughly a <strong>4&ndash;5 hour drive</strong>).</li><li><strong>Come early:</strong> You&rsquo;re welcome to fly into <a href=\"international.html#delhi\">Delhi</a> a day or two early to explore the city. On the evening of the <strong>21st</strong> or the <strong>morning of the 22nd</strong>, we&rsquo;ll provide a <strong>private bus</strong> for everyone to travel together to Jaipur. Pickup details will be shared closer to the date.</li></ul>",
+    air_p: "<p class=\"info-subhead\">For international guests</p><ul class=\"info-list\"><li><strong>Suggested flight:</strong> We recommend an Air France flight from Paris (CDG) to Delhi, arriving on the morning of Sunday 21 February 2027. We&rsquo;ll share the exact flight number and timings with confirmed guests.</li><li><strong>Shuttle:</strong> a shuttle from Delhi airport to Jaipur will be arranged on 21 February for guests on this flight.</li></ul><p class=\"info-subhead\">For domestic guests</p><ul class=\"info-list\"><li><strong>Direct flights:</strong> Jaipur (JAI) has direct flights from most major Indian cities, with IndiGo, Air India, Vistara and Akasa Air all serving the airport.</li><li><strong>Via Delhi:</strong> If you route through Delhi, Jaipur is a quick ~1 hour hop, or an easy <strong>4&ndash;5 hour</strong> drive if you&rsquo;d rather land once.</li></ul>",
     train_h: "By Train",
     train_p: "<ul class=\"info-list\"><li><strong>Jaipur Junction</strong> is well connected to Delhi and other major cities.</li><li>Other stations in the area include <strong>Durgapura</strong> and <strong>Gandhi Nagar</strong>, so you can arrive at any of these.</li><li>Our event planners will contact guests to confirm arrival timings and arrange <strong>taxi service</strong> to the venue on the <strong>21st</strong>.</li></ul>",
     local_h: "Local Transport",
@@ -126,7 +126,7 @@ const I18N = {
     stay_title: "Where to Stay",
     stay_sub: "We&rsquo;ll list a few recommended hotels at a range of budgets here, with booking details.",
     stay_h1: "At the Venue", stay_p1: "We&rsquo;re delighted to provide two nights&rsquo; stay at Ridhi Resort, covering the nights of 22 and 23 February. Further details on rooms will follow.",
-    stay_h2: "Recommended Hotels", stay_p2: "A shortlist of nearby hotels with our group rates will be added soon.",
+    stay_h2: "Recommended Hotels", stay_p2: "For the wedding festivities, we recommend the following hotels in Jaipur: <strong>Marriott Jaipur</strong>, <strong>Holiday Inn Jaipur</strong>, <strong>The Fern Jaipur</strong> and <strong>Radisson Blu Jaipur</strong>.",
     stay_h3: "Booking Help", stay_p3: "Need a hand booking? Reach out to our contacts below and we&rsquo;ll help.",
 
     attire_title: "What to Wear",
@@ -151,7 +151,7 @@ const I18N = {
     faq_q3: "What currency should I bring?", faq_a3: "The Indian Rupee (INR). Cards are widely accepted in hotels; carry some cash for smaller purchases and tips.",
 
     footer_title: "With love, Sonali &amp; Thomas",
-    footer_date: "22 &ndash; 23 February 2027 &middot; Ridhi Resort, Jaipur",
+    footer_date: "22 &ndash; 24 February 2027 &middot; Ridhi Resort, Jaipur",
   },
 
   hi: {
@@ -176,7 +176,7 @@ const I18N = {
 
     hero_tagline: "जो एक कप कॉफ़ी से शुरू हुआ, तब से हमेशा के लिए पकता जा रहा है।",
     hero_invite: "हमारे साथ प्रेम का उत्सव मनाइए",
-    hero_date: "22 &ndash; 23 फ़रवरी 2027",
+    hero_date: "22 &ndash; 24 फ़रवरी 2027",
     hero_place: "रिधि रिज़ॉर्ट &middot; जयपुर, भारत",
     hero_cta: "समारोह देखें",
 
@@ -218,12 +218,12 @@ const I18N = {
     venue_title: "स्थल",
     venue_h: "रिधि रिज़ॉर्ट, जयपुर",
     venue_p: "सभी कार्यक्रम रिधि रिज़ॉर्ट, जयपुर में होंगे। यह रिज़ॉर्ट समारोहों के लिए एक सुकूनभरा वातावरण देता है, जहाँ रस्मों और बीच के शांत पलों दोनों के लिए जगह है।",
-    venue_note: "मंडौ रोड, पत्रकार कॉलोनी के पास, मानसरोवर एक्सटेंशन, सांगानेर, मुहाना, जयपुर, राजस्थान 302029, भारत।",
+    venue_note: "पूरा पता और दिशा-निर्देश तारीख के करीब पुष्ट अतिथियों के साथ साझा किए जाएँगे।",
     venue_cta: "गूगल मैप्स में खोलें",
 
     travel_title: "कैसे पहुँचें",
     air_h: "हवाई मार्ग से",
-    air_p: "<ul class=\"info-list\"><li><strong>पेरिस से:</strong> एमिरेट्स द्वारा दुबई होते हुए जयपुर (JAI) हमारी सलाह है, लेओवर सहित लगभग <strong>13 घंटे</strong>।</li><li><strong>वैकल्पिक:</strong> एयर फ़्रांस CDG से जयपुर, आमतौर पर एक लेओवर के साथ (अक्सर एम्स्टर्डम और दिल्ली होते हुए), कुल मिलाकर लगभग <strong>15&ndash;20 घंटे</strong>।</li><li><strong>सीधा विकल्प:</strong> पेरिस से दिल्ली सीधी उड़ान, फिर बाकी लगभग 300&nbsp;किमी टैक्सी से (करीब <strong>4&ndash;5 घंटे की ड्राइव</strong>)।</li><li><strong>जल्दी आएँ:</strong> आप एक-दो दिन पहले <a href=\"international.html#delhi\">दिल्ली</a> पहुँचकर शहर घूम सकते हैं। <strong>21 तारीख</strong> की शाम या <strong>22 तारीख की सुबह</strong> हम सभी के लिए एक साथ जयपुर जाने हेतु <strong>निजी बस</strong> की व्यवस्था करेंगे। पिकअप का विवरण तिथि नज़दीक आने पर साझा किया जाएगा।</li></ul>",
+    air_p: "<p class=\"info-subhead\">अंतरराष्ट्रीय अतिथियों के लिए</p><ul class=\"info-list\"><li><strong>सुझाई गई उड़ान:</strong> हम पेरिस (CDG) से दिल्ली के लिए एयर फ़्रांस की उड़ान की सलाह देते हैं, जो रविवार 21 फ़रवरी 2027 की सुबह पहुँचती है। सटीक उड़ान संख्या और समय पुष्टि किए गए अतिथियों के साथ साझा किए जाएँगे।</li><li><strong>शटल:</strong> इस उड़ान के अतिथियों के लिए 21 फ़रवरी को दिल्ली हवाई अड्डे से जयपुर तक शटल की व्यवस्था की जाएगी।</li></ul><p class=\"info-subhead\">घरेलू अतिथियों के लिए</p><ul class=\"info-list\"><li><strong>सीधी उड़ानें:</strong> जयपुर (JAI) के लिए अधिकांश बड़े भारतीय शहरों से सीधी उड़ानें उपलब्ध हैं, IndiGo, एयर इंडिया, विस्तारा और आकासा एयर सभी यहाँ सेवा देती हैं।</li><li><strong>दिल्ली होते हुए:</strong> यदि आप दिल्ली होकर आते हैं, तो जयपुर सिर्फ़ लगभग 1 घंटे की उड़ान है, या यदि आप एक ही बार उतरना चाहें तो आसान <strong>4&ndash;5 घंटे</strong> की ड्राइव।</li></ul>",
     train_h: "रेल मार्ग से",
     train_p: "<ul class=\"info-list\"><li><strong>जयपुर जंक्शन</strong> दिल्ली और अन्य प्रमुख शहरों से अच्छी तरह जुड़ा है।</li><li>क्षेत्र के अन्य स्टेशनों में <strong>दुर्गापुरा</strong> और <strong>गांधी नगर</strong> शामिल हैं, आप इनमें से किसी पर भी पहुँच सकते हैं।</li><li>हमारे इवेंट प्लानर अतिथियों से संपर्क कर आगमन समय की पुष्टि करेंगे और <strong>21 तारीख</strong> को स्थल तक <strong>टैक्सी सेवा</strong> की व्यवस्था करेंगे।</li></ul>",
     local_h: "स्थानीय परिवहन",
@@ -232,7 +232,7 @@ const I18N = {
     stay_title: "कहाँ ठहरें",
     stay_sub: "हम यहाँ अलग-अलग बजट के कुछ अनुशंसित होटल, बुकिंग विवरण के साथ सूचीबद्ध करेंगे।",
     stay_h1: "स्थल पर", stay_p1: "हमें खुशी है कि हम आपको रिधि रिज़ॉर्ट में दो रातों का ठहराव प्रदान कर रहे हैं, जो 22 और 23 फ़रवरी की रातों के लिए है। कमरों का विवरण जल्द साझा किया जाएगा।",
-    stay_h2: "अनुशंसित होटल", stay_p2: "हमारी समूह दरों के साथ पास के होटलों की सूची जल्द जोड़ी जाएगी।",
+    stay_h2: "अनुशंसित होटल", stay_p2: "विवाह समारोहों के लिए हम जयपुर में इन होटलों की सलाह देते हैं: <strong>मैरियट जयपुर</strong>, <strong>हॉलिडे इन जयपुर</strong>, <strong>द फ़र्न जयपुर</strong> और <strong>रैडिसन ब्लू जयपुर</strong>।",
     stay_h3: "बुकिंग में सहायता", stay_p3: "बुकिंग में मदद चाहिए? नीचे दिए हमारे संपर्कों से संपर्क करें, हम मदद करेंगे।",
 
     attire_title: "क्या पहनें",
@@ -257,7 +257,7 @@ const I18N = {
     faq_q3: "मुझे कौन-सी मुद्रा लानी चाहिए?", faq_a3: "भारतीय रुपया (INR)। होटलों में कार्ड व्यापक रूप से स्वीकार्य हैं; छोटी खरीदारी और टिप के लिए कुछ नकद रखें।",
 
     footer_title: "सस्नेह, सोनाली और थॉमस",
-    footer_date: "22 &ndash; 23 फ़रवरी 2027 &middot; रिधि रिज़ॉर्ट, जयपुर",
+    footer_date: "22 &ndash; 24 फ़रवरी 2027 &middot; रिधि रिज़ॉर्ट, जयपुर",
   },
 
   fr: {
@@ -287,7 +287,7 @@ const I18N = {
     ignav_outfits: "Tenues", ignav_eat: "Manger", ignav_see: "Visiter", ignav_delhi: "Delhi", ignav_tips: "Conseils",
 
     ig_visa_h: "Visa &amp; Entrée",
-    ig_visa_p: "La plupart des visiteurs ont besoin d&rsquo;un visa pour entrer en Inde. L&rsquo;option la plus simple pour les touristes est l&rsquo;<strong>e-Visa</strong>, à demander en ligne avant le départ sur le portail officiel (indianvisaonline.gov.in). Vous devrez aussi remplir une <strong>carte d&rsquo;arrivée</strong> (Arrival Card), à soumettre dans les 48 heures précédant votre atterrissage. Faites la demande de visa au moins 1&ndash;2 semaines à l&rsquo;avance. Votre passeport doit être valable au moins six mois à compter de votre date d&rsquo;arrivée et comporter deux pages vierges. Vérifiez toujours les conditions de visa en vigueur pour votre nationalité.",
+    ig_visa_p: "La plupart des visiteurs ont besoin d&rsquo;un visa pour entrer en Inde. L&rsquo;option la plus simple pour les touristes est l&rsquo;<strong>e-Visa</strong>, à demander en ligne avant le départ sur le portail officiel (indianvisaonline.gov.in). Vous devrez aussi remplir une <strong>carte d&rsquo;arrivée</strong> (Arrival Card), à soumettre dans les 48 heures précédant votre atterrissage. Faites la demande de visa au moins 1&ndash;2 semaines à l&rsquo;avance. Votre passeport doit être valable au moins six mois à compter de votre date d&rsquo;arrivée et comporter deux pages vierges. Vérifiez toujours les conditions de visa en vigueur pour votre nationalité. Une assistance visa est disponible pour les invités venant de l&rsquo;étranger, dites-nous simplement si vous souhaitez de l&rsquo;aide. Vous pouvez faire votre demande sur le portail officiel : <a href=\"https://indianvisaonline.gov.in/evisa\" target=\"_blank\" rel=\"noopener\">indianvisaonline.gov.in/evisa</a>.",
     ig_health_h: "Santé &amp; vaccins",
     ig_health_p: "Pensez à vérifier auprès de votre médecin ou d&rsquo;un centre de vaccination internationale quels vaccins ou précautions sanitaires sont conseillés pour l&rsquo;Inde, et à faire les vaccins nécessaires. Ils n&rsquo;ont pas besoin d&rsquo;être faits juste avant le départ, alors faites-les quand cela vous arrange.",
 
@@ -329,7 +329,7 @@ const I18N = {
 
     hero_tagline: "Ce qui a commencé par un simple café infuse doucement vers l&rsquo;éternité.",
     hero_invite: "Rejoignez-nous pour célébrer l&rsquo;amour",
-    hero_date: "22 &ndash; 23 février 2027",
+    hero_date: "22 &ndash; 24 février 2027",
     hero_place: "Ridhi Resort &middot; Jaipur, Inde",
     hero_cta: "Voir les célébrations",
 
@@ -371,12 +371,12 @@ const I18N = {
     venue_title: "Le Lieu",
     venue_h: "Ridhi Resort, Jaipur",
     venue_p: "Tous les événements se déroulent au Ridhi Resort, à Jaipur. Le complexe offre un cadre détendu pour les célébrations, avec de l&rsquo;espace pour les cérémonies comme pour les moments plus calmes entre les événements.",
-    venue_note: "Mandau Road, près de Patrakar Colony, Mansarovar Extension, Sanganer, Muhana, Jaipur, Rajasthan 302029, Inde.",
+    venue_note: "L&rsquo;adresse complète et l&rsquo;itinéraire seront communiqués aux invités confirmés à l&rsquo;approche de la date.",
     venue_cta: "Ouvrir dans Google Maps",
 
     travel_title: "Accès",
     air_h: "En avion",
-    air_p: "<ul class=\"info-list\"><li><strong>Depuis Paris :</strong> nous recommandons Emirates via Dubaï jusqu&rsquo;à Jaipur (JAI), environ <strong>13 heures au total</strong> avec l&rsquo;escale.</li><li><strong>Autre option :</strong> Air France depuis CDG vers Jaipur, généralement avec une escale (souvent via Amsterdam et Delhi), soit environ <strong>15&ndash;20 heures</strong> en tout.</li><li><strong>Option directe :</strong> vol Paris&ndash;Delhi direct, puis taxi pour les ~300&nbsp;km restants (soit environ <strong>4&ndash;5 heures de route</strong>).</li><li><strong>Arriver tôt :</strong> vous êtes les bienvenus pour arriver à <a href=\"international.html#delhi\">Delhi</a> un jour ou deux à l&rsquo;avance et visiter la ville. Le soir du <strong>21</strong> ou le <strong>matin du 22</strong>, nous fournirons un <strong>bus privé</strong> pour voyager tous ensemble jusqu&rsquo;à Jaipur. Les détails de prise en charge seront communiqués à l&rsquo;approche de la date.</li></ul>",
+    air_p: "<p class=\"info-subhead\">Pour les invités internationaux</p><ul class=\"info-list\"><li><strong>Vol suggéré :</strong> nous recommandons un vol Air France de Paris (CDG) à Delhi, arrivant le matin du dimanche 21 février 2027. Nous communiquerons le numéro de vol et les horaires exacts aux invités confirmés.</li><li><strong>Navette :</strong> une navette de l&rsquo;aéroport de Delhi jusqu&rsquo;à Jaipur sera organisée le 21 février pour les invités de ce vol.</li></ul><p class=\"info-subhead\">Pour les invités nationaux</p><ul class=\"info-list\"><li><strong>Vols directs :</strong> Jaipur (JAI) est desservi en direct depuis la plupart des grandes villes indiennes, par IndiGo, Air India, Vistara et Akasa Air.</li><li><strong>Via Delhi :</strong> si vous passez par Delhi, Jaipur n&rsquo;est qu&rsquo;à environ 1 heure de vol, ou une route facile de <strong>4&ndash;5 heures</strong> si vous préférez n&rsquo;atterrir qu&rsquo;une fois.</li></ul>",
     train_h: "En train",
     train_p: "<ul class=\"info-list\"><li><strong>Jaipur Junction</strong> est bien reliée à Delhi et aux autres grandes villes.</li><li>Les autres gares de la région incluent <strong>Durgapura</strong> et <strong>Gandhi Nagar</strong>, vous pouvez arriver à l&rsquo;une ou l&rsquo;autre.</li><li>Nos organisateurs contacteront les invités pour confirmer les horaires d&rsquo;arrivée et organiser un <strong>service de taxi</strong> jusqu&rsquo;au lieu le <strong>21</strong>.</li></ul>",
     local_h: "Transport local",
@@ -385,7 +385,7 @@ const I18N = {
     stay_title: "Où loger",
     stay_sub: "Nous listerons ici quelques hôtels recommandés pour différents budgets, avec les détails de réservation.",
     stay_h1: "Sur place", stay_p1: "Nous sommes heureux de vous offrir deux nuits d&rsquo;hébergement au Ridhi Resort, pour les nuits du 22 et du 23 février. Les détails sur les chambres suivront.",
-    stay_h2: "Hôtels recommandés", stay_p2: "Une sélection d&rsquo;hôtels à proximité avec nos tarifs de groupe sera bientôt ajoutée.",
+    stay_h2: "Hôtels recommandés", stay_p2: "Pour les festivités du mariage, nous recommandons les hôtels suivants à Jaipur : <strong>Marriott Jaipur</strong>, <strong>Holiday Inn Jaipur</strong>, <strong>The Fern Jaipur</strong> et <strong>Radisson Blu Jaipur</strong>.",
     stay_h3: "Aide à la réservation", stay_p3: "Besoin d&rsquo;aide pour réserver ? Contactez-nous ci-dessous et nous vous aiderons.",
 
     attire_title: "Quoi porter",
@@ -410,7 +410,7 @@ const I18N = {
     faq_q3: "Quelle monnaie dois-je apporter ?", faq_a3: "La roupie indienne (INR). Les cartes sont largement acceptées dans les hôtels ; gardez un peu d&rsquo;espèces pour les petits achats et les pourboires.",
 
     footer_title: "Avec amour, Sonali &amp; Thomas",
-    footer_date: "22 &ndash; 23 février 2027 &middot; Ridhi Resort, Jaipur",
+    footer_date: "22 &ndash; 24 février 2027 &middot; Ridhi Resort, Jaipur",
   },
 };
 
