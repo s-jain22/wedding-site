@@ -397,6 +397,106 @@ a { color: var(--maroon); }
   font-style: italic;
 }
 
+/* ---------- Itinerary ---------- */
+.it-tocfm { max-width: 640px; margin: 1.1rem 0 0; font-size: .9rem; }
+.it-routes { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; align-items: start; }
+.it-route {
+  background: var(--cream);
+  border: 1px solid #e6d8c4;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 8px 22px rgba(107,31,42,.05);
+}
+.it-route-h {
+  margin: 0;
+  padding: 1.1rem 1.4rem;
+  background: linear-gradient(120deg, var(--maroon), var(--maroon-deep));
+  color: var(--cream);
+  font-size: 1.3rem;
+}
+.it-route-sub {
+  margin: 0;
+  padding: .85rem 1.4rem;
+  font-style: italic;
+  color: var(--muted);
+  border-bottom: 1px solid #f0e6d6;
+}
+.it-tablewrap {
+  max-width: 860px;
+  margin: 1.5rem auto 0;
+  border: 1px solid #e6d8c4;
+  border-radius: 10px;
+  overflow-x: auto;
+  background: var(--cream);
+  box-shadow: 0 8px 22px rgba(107,31,42,.05);
+}
+.it-table { width: 100%; border-collapse: collapse; }
+.it-table td {
+  padding: .85rem 1.4rem;
+  border-bottom: 1px solid #f0e6d6;
+  vertical-align: top;
+  font-size: .95rem;
+  line-height: 1.55;
+}
+.it-table tr:last-child td { border-bottom: 0; }
+.it-table .it-when {
+  white-space: nowrap;
+  width: 1%;
+  color: var(--maroon);
+  font-weight: 500;
+}
+
+/* Bifurcated grid tables (routes, stay & eat, getting home) */
+.it-table--grid { min-width: 620px; }
+.it-table--grid thead { background: var(--cream-alt); }
+.it-table--grid th {
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-size: .6rem;
+  font-weight: 500;
+  color: var(--maroon);
+  padding: .6rem 1rem;
+  border-bottom: 1px solid #e2d2bb;
+  white-space: nowrap;
+}
+.it-table--grid td {
+  padding: .7rem 1rem;
+  border-bottom: 1px solid #f0e6d6;
+  vertical-align: top;
+  font-size: .88rem;
+  line-height: 1.45;
+}
+.it-table--grid td:first-child { white-space: nowrap; color: var(--maroon); font-weight: 500; }
+.it-table--grid tr:last-child td { border-bottom: 0; }
+
+/* Routes as stacked dropdowns (reusing .travel-item) */
+.it-routes-acc .travel-item { margin-bottom: 1rem; }
+.it-routes-acc .it-route-sub {
+  margin: 0;
+  padding: .9rem 1.4rem 0;
+  font-style: italic;
+  color: var(--muted);
+  border-bottom: 0;
+}
+.it-routes-acc .it-tablewrap {
+  max-width: none;
+  margin: .9rem 0 0;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+.it-why { max-width: 720px; margin: 1.6rem auto 0; font-size: .9rem; font-style: italic; text-align: center; }
+.it-cardlist {
+  max-width: 760px;
+  margin: 1.5rem auto 0;
+  border: 1px solid #e6d8c4;
+  border-radius: 10px;
+  background: var(--cream);
+  box-shadow: 0 8px 22px rgba(107,31,42,.05);
+}
+.it-cardlist > ul.info-list { margin: 0; padding: 1.4rem 1.6rem; }
+
 /* ---------- Layout helpers ---------- */
 .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem; align-items: start; }
 .venue-detail { max-width: 42rem; margin: 0 auto; }
@@ -749,7 +849,7 @@ a { color: var(--maroon); }
     gap: .25rem .75rem;
     -webkit-overflow-scrolling: touch;
   }
-  .two-col, .card-grid, .registry-grid { grid-template-columns: 1fr; }
+  .two-col, .card-grid, .registry-grid, .it-routes { grid-template-columns: 1fr; }
 
   .day-head { flex-direction: column; gap: .3rem; padding: 1.1rem 1.2rem; }
   .day-date { font-size: 1.35rem; }
